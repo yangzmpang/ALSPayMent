@@ -1,7 +1,5 @@
 PODS:
-  - ALSPayMent (0.1.0):
-    - ALSPayMent/Core (= 0.1.0)
-  - ALSPayMent/Core (0.1.0)
+  - ALSPayMent (0.1.0)
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
@@ -17,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ALSPayMent: f5cb5466c4e424e83c7866da37aebec89bb3631f
+  ALSPayMent: 1e51ed97e5fc9c2b491ee1bf864fe8940d55f7f3
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
 
 PODFILE CHECKSUM: 1120ed3a4c2fd4abe6a934ada3e05cf0eb97d6c9

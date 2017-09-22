@@ -1,6 +1,0 @@
-framework module ALSPayMent {
-  umbrella header "ALSPayMent-umbrella.h"
-
-  export *
-  module * { export * }
-}

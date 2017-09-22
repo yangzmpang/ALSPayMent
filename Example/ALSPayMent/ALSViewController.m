@@ -7,7 +7,7 @@
 //
 
 #import "ALSViewController.h"
-//#import <ALSInAppPurchase/ALSInAppPurchase.h>
+#import <ALSInAppPurchase/ALSInAppPurchase.h>
 
 @interface ALSViewController ()
 
@@ -19,7 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    /*
+    
     // 查询回调
     [[ALSRMStore defaultStore] ProductRequestProc:^(id id_array, id obj, NSDictionary* dic)
      {
@@ -31,7 +31,7 @@
          NSMutableDictionary* dic_id = id_array;
          NSLog(@"product [%@] select failed.................", dic_id );
      }];
-*/
+
 }
 
 - (void)didReceiveMemoryWarning
