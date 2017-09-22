@@ -1,0 +1,1 @@
+../../../../../ALSPayMent/Classes/WXApiObject.h

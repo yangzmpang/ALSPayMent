@@ -1,0 +1,1 @@
+../../../../../ALSPayMent/Classes/WXApi.h

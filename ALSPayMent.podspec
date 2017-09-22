@@ -30,26 +30,24 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  
-  #s.source_files = 'ALSPayMent/Classes/**/*','ALSPayMent/Classes/ALSInAppPurchase.framework/Headers/*.h'
-  #s.ios.vendored_frameworks='ALSPayMent/Classes/ALSInAppPurchase.framework'
-  #s.ios.public_header_files='ALSPayMent/Classes/ALSInAppPurchase.framework/Headers/*.h'
-  #s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => 'ALSPayMent/Classes' }
+  s.default_subspec = 'Core'
 
-  s.preserve_paths = 'ALSPayMent/Classes/ALSInAppPurchase.framework'
-  s.xcconfig = { 'OTHER_LDFLAGS' => '-framework ALSInAppPurchase' }
-  s.vendored_frameworks = 'ALSPayMent/Classes/ALSInAppPurchase.framework'
+  s.subspec 'Core' do |core|
+  core.source_files = 'ALSPayMent/Classes/**/*'
+  core.public_header_files = 'ALSPayMent/Classes/**/*.h'
+ 
+  core.resources = "ALSPayMent/lib/*.bundle","ALSPayMent/lib/ALSAppleIncRootCertificate.cer"
+  core.frameworks = "CoreMotion","CoreGraphics", "CoreTelephony","QuartzCore","SystemConfiguration","Security","Foundation","UIKit"
+  core.ios.library = 'z', 'sqlite3.0','c++', 'stdc++','ssl', 'crypto'
+  core.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC',
+  'ENABLE_BITCODE' => 'NO',
+  'HEADER_SEARCH_PATHS' => '/Users/yangziminyangzimin/Desktop/test/ALSPayMent/ALSPayMent/ALSPayMent/Classes/openssl/include/**' }
+  core.vendored_libraries = "ALSPayMent/lib/*.a"
+  end
 
-  #s.xcconfig = { 'HEADER_SEARCH_PATHS' => "/Users/yangziminyangzimin/Desktop/test/ALSPayMent/ALSPayMent/ALSPayMent/Classes/openssl/include/**",'LIBRARY_SEARCH_PATHS' => "/Users/yangziminyangzimin/Desktop/test/ALSPayMent/ALSPayMent/ALSPayMent/Classes/**" }
-  #s.vendored_libraries = "libcrypto.a","libssl.a"
-  #s.libraries="libcrypto.a","libssl.a"
-
-  # s.resource_bundles = {
-  #   'ALSPayMent' => ['ALSPayMent/Assets/*.png']
-  # }
-
-  s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
-  #s.dependency 'OpenSSL-Classic','= 1.0.1.j'
+  s.dependency 'AlipaySDKIniOS', '~> 15.2.0'
+  s.pod_target_xcconfig = {
+    'FRAMEWORK_SEARCH_PATHS' => '$(inherited) $(PODS_ROOT)/AlipaySDKIniOS',
+    'OTHER_LDFLAGS'          => '$(inherited) -undefined dynamic_lookup'
+  }
 end

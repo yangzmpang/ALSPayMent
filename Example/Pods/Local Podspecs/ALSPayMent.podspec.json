@@ -18,10 +18,51 @@
   "platforms": {
     "ios": "8.0"
   },
-  "preserve_paths": "ALSPayMent/Classes/ALSInAppPurchase.framework",
-  "xcconfig": {
-    "OTHER_LDFLAGS": "-framework ALSInAppPurchase"
+  "default_subspecs": "Core",
+  "dependencies": {
+    "AlipaySDKIniOS": [
+      "~> 15.2.0"
+    ]
   },
-  "vendored_frameworks": "ALSPayMent/Classes/ALSInAppPurchase.framework",
-  "public_header_files": "Pod/Classes/**/*.h"
+  "pod_target_xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(inherited) $(PODS_ROOT)/AlipaySDKIniOS",
+    "OTHER_LDFLAGS": "$(inherited) -undefined dynamic_lookup"
+  },
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": "ALSPayMent/Classes/**/*",
+      "public_header_files": "ALSPayMent/Classes/**/*.h",
+      "resources": [
+        "ALSPayMent/lib/*.bundle",
+        "ALSPayMent/lib/ALSAppleIncRootCertificate.cer"
+      ],
+      "frameworks": [
+        "CoreMotion",
+        "CoreGraphics",
+        "CoreTelephony",
+        "QuartzCore",
+        "SystemConfiguration",
+        "Security",
+        "Foundation",
+        "UIKit"
+      ],
+      "ios": {
+        "libraries": [
+          "z",
+          "sqlite3.0",
+          "c++",
+          "stdc++",
+          "ssl",
+          "crypto"
+        ]
+      },
+      "xcconfig": {
+        "OTHER_LDFLAGS": "-ObjC",
+        "ENABLE_BITCODE": "NO",
+        "HEADER_SEARCH_PATHS": "/Users/yangziminyangzimin/Desktop/test/ALSPayMent/ALSPayMent/ALSPayMent/Classes/openssl/include/**"
+      },
+      "vendored_libraries": "ALSPayMent/lib/*.a"
+    }
+  ]
 }

@@ -1,23 +1,22 @@
 PODS:
-  - ALSPayMent (0.1.0)
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
+  - AlipaySDKIniOS (15.2.1)
+  - ALSPayMent (0.1.0):
+    - AlipaySDKIniOS (~> 15.2.0)
+    - ALSPayMent/Core (= 0.1.0)
+  - ALSPayMent/Core (0.1.0):
+    - AlipaySDKIniOS (~> 15.2.0)
 
 DEPENDENCIES:
   - ALSPayMent (from `../`)
-  - FBSnapshotTestCase
 
 EXTERNAL SOURCES:
   ALSPayMent:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ALSPayMent: 1e51ed97e5fc9c2b491ee1bf864fe8940d55f7f3
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  AlipaySDKIniOS: ad64922a36f2cba4d941b99b6b5286704a103d9b
+  ALSPayMent: bb185a108f2a0fd3f4ea6caded2128afb104ab6e
 
-PODFILE CHECKSUM: 1120ed3a4c2fd4abe6a934ada3e05cf0eb97d6c9
+PODFILE CHECKSUM: 66ba1e4580572c63508d78f491f32d661053f87e
 
 COCOAPODS: 1.2.1

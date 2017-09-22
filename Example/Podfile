@@ -6,6 +6,12 @@ target 'ALSPayMent_Example' do
   target 'ALSPayMent_Tests' do
     inherit! :search_paths
 
-    pod 'FBSnapshotTestCase'
+#pod 'FBSnapshotTestCase'
   end
+  
+  pre_install do |installer|
+      # workaround for https://github.com/CocoaPods/CocoaPods/issues/3289
+      def installer.verify_no_static_framework_transitive_dependencies; end
+  end
+
 end

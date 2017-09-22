@@ -7,7 +7,8 @@
 //
 
 #import "ALSViewController.h"
-#import <ALSInAppPurchase/ALSInAppPurchase.h>
+#import "ALSPayManager.h"
+#import "ALSInAppPurchase.h"
 
 @interface ALSViewController ()
 

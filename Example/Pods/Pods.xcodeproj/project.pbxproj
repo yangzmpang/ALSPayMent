@@ -7,390 +7,793 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */; };
-		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
-		26E9C26355011A65A27872CC368D2AD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
-		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
-		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */; };
-		60A70A01A5E51BE109E71E191FB102ED /* Pods-ALSPayMent_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E0FD0BCE497AB937730D7D100F428A0 /* Pods-ALSPayMent_Tests-dummy.m */; };
-		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */; };
-		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */; };
-		7E9B14D5F8842A86CA86F2AF45230725 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */; };
-		841FF232C33C7D49C58CEFDBE7EEB92B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */; };
-		90EADDC057B2A12C12D4D2B5E7645AE5 /* Pods-ALSPayMent_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B537A0092F604DBF19844F6056868B6F /* Pods-ALSPayMent_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		91D0138ACFAD733E4061F12E450C336C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
-		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A251D5976E9894D8D81BE691D7FF3C19 /* Pods-ALSPayMent_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 123464415E186E2A6E7BCFA09AD46385 /* Pods-ALSPayMent_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */; };
-		A7D2E8769A5BDD0F35CD0D4E0110E048 /* Pods-ALSPayMent_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0967FC3CB8A0FD0AAF775B6137A86405 /* Pods-ALSPayMent_Example-dummy.m */; };
-		B27DFD6025D94758785918F1D6F6C060 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A27810809BAD71E4022600B21251449F /* QuartzCore.framework */; };
-		B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D037B3C804B9E1BB70538E342E5104 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */; };
-		BF1488533F269DE28C8B76AE50702EAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
-		BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */; };
+		036C97F065B3BF5AE219FB82B8434BF5 /* ALSRMStoreUserDefaultsPersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE4AECBDEDEE62F204109AB6BC03CE6 /* ALSRMStoreUserDefaultsPersistence.m */; };
+		043B77AF6EFFFE97E85C1628571B5A4D /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3328431D493D8CEA3A786E0C042E7339 /* CoreMotion.framework */; };
+		0B755EDD6CB33FF00B18120A1A84C78F /* ssl2.h in Headers */ = {isa = PBXBuildFile; fileRef = BE4577D59EA242CF5F2E74B636932B16 /* ssl2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DDD0C9D6A928227617F4F925B6E88F0 /* des_old.h in Headers */ = {isa = PBXBuildFile; fileRef = D663FEEE6E68464F3704FDD7922C12C9 /* des_old.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		188AE3FFBC66BD81CFDDE8DD19593C8A /* sha.h in Headers */ = {isa = PBXBuildFile; fileRef = 481D481EF017C8595A790ADE359A4871 /* sha.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C6A18AE8E9DC3253DEE224223A85CF1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DABE3198E0E17787B108287625A095E /* SystemConfiguration.framework */; };
+		1DE1C9CE933B81D14C269AC9F7FEBFF8 /* ssl23.h in Headers */ = {isa = PBXBuildFile; fileRef = 46510AD4410FBEDA28F65162BFF5C81B /* ssl23.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21E2163F8FDD009E47D6D507697BD184 /* ecdsa.h in Headers */ = {isa = PBXBuildFile; fileRef = BE2C682AE3AF5E158D6239A3B005240B /* ecdsa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2292D5BEC69BED70DE10B682E4297BE3 /* ui.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E209E5952228A18A5613AC79298CD75 /* ui.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22D39D94CB8CA4CC057224220BB728A8 /* buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = EE8EB0284983189C7466DFB10671EF1A /* buffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2359F15EB51D25FF84BAE46D59D9F970 /* des.h in Headers */ = {isa = PBXBuildFile; fileRef = CC5B86D4F063276333CD74E11B12D2D6 /* des.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23D7DE5BC87112DAA07DAD3414A815AD /* whrlpool.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C935C5E2D9E6FB121BE2375F3066957 /* whrlpool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2931525500DADEE2E7D7CA030592D1FC /* ALSRMStoreUserDefaultsPersistence.h in Headers */ = {isa = PBXBuildFile; fileRef = 8349A5E64BBEF8FB65971DED4AA772A3 /* ALSRMStoreUserDefaultsPersistence.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E0F15E684F8E3796BF57BCBFCE1FC03 /* bn.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B84C06EB3CB0AE4116E38E71EDE8B6C /* bn.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EB5F22E864BBA45D9A5E7739D808776 /* Pods-ALSPayMent_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA67A2820699489749A6BEEA9B161C9 /* Pods-ALSPayMent_Tests-dummy.m */; };
+		2F7604D771C4E79DA1A16486E5D9CD5B /* ALSInAppPurchase.h in Headers */ = {isa = PBXBuildFile; fileRef = 83D8391C6AE4F51ED43552F980B99420 /* ALSInAppPurchase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32134805BB4F7A43B147C76122E085ED /* mdc2.h in Headers */ = {isa = PBXBuildFile; fileRef = 79871FC0F1BEB2854AC285CD8B8C3253 /* mdc2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32CE4212D10AD57E56C45FD0F35CD3C7 /* ts.h in Headers */ = {isa = PBXBuildFile; fileRef = 32600613DF531F4B5612A8472493094F /* ts.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3609E69886A3A9F8C733F0D9303CF186 /* asn1_mac.h in Headers */ = {isa = PBXBuildFile; fileRef = 04532BAFC91A718C4E24B4FA25390CFE /* asn1_mac.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		363215E3A2A7ACA17FFBC7879EBCC4D2 /* crypto.h in Headers */ = {isa = PBXBuildFile; fileRef = A141434C526BB5DFFC375EDE5C980BCF /* crypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3678E115B54EA667B2DAF3C46513E954 /* ec.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BBA74E0AA617BA0B6E00FFC417CBE51 /* ec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F1F797A80186B8899760EA92C6B0A43 /* ocsp.h in Headers */ = {isa = PBXBuildFile; fileRef = F5F939C5352963A6F1B211BA762B8270 /* ocsp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FF77576A1D971A548481348AA1EFF10 /* ALSRMStoreTransaction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DB2D855F10247B05A4EE48043EDD2E0 /* ALSRMStoreTransaction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43237D3F37BD6A39BF8EEFFBF35D7C9D /* ALSRMStoreAppReceiptVerifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FBA191B5DF788FC97D295FA39C417E5 /* ALSRMStoreAppReceiptVerifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B4EB9AA9EBEA1EE6C62D50EA6318A3 /* rc4.h in Headers */ = {isa = PBXBuildFile; fileRef = 70A994117590E5FF121AB87BE57F43F2 /* rc4.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		455128BB6971EA986DC2BFE568BAA614 /* seed.h in Headers */ = {isa = PBXBuildFile; fileRef = 985959903D23A42EFBB523B38D67B531 /* seed.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		468E6C8FF288C755C5A6488194D881EF /* pem2.h in Headers */ = {isa = PBXBuildFile; fileRef = 156CC8F16CD6612B4331AB9BFDCF4AC3 /* pem2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		476602DC33014D247D1055B05C35E883 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B62047B1006E45B73E146526EE31A4D5 /* Foundation.framework */; };
+		49F38712D24ED936F7DD31BE6AFFC62E /* WXApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 318A1F4F98B804E004A5DEDFBAA7EA8F /* WXApiObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A45DA192E2295086D88D0B6DD9EA2D9 /* cast.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FA60F06A33BD8E47CF278906BB27BDD /* cast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F59CFB984A9F98BD3A06882AA12C268 /* modes.h in Headers */ = {isa = PBXBuildFile; fileRef = BCA3C0C55FA23A1B754E4C5603E55920 /* modes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52740E3F281EB84C261774A0AF91E3FA /* DelegateToBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 072B7E74270D0EF29B746E4D462DFD55 /* DelegateToBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5364736EF2FAF3A9E278933D23B9A365 /* aes.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B42D3F8DD9374BFFB66A6BABED12CC0 /* aes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B3B55403708F0F9283E4FA4850727E9 /* cms.h in Headers */ = {isa = PBXBuildFile; fileRef = 6317A1C97E217F8AC961845A47717EC7 /* cms.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D5BC010ACC78C31AB05A873AFB9FBCE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 422AA42725E51CF746670902B58A6514 /* Security.framework */; };
+		65531BD6450DDE90AD2093CF2A608A55 /* err.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C9FE09440EB4387A52F5A374CFD189A /* err.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67B49CE143154ED5C1EE341A31D3ECEC /* dsa.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D7AC4FDD01B5DC3CF5611026589CCDD /* dsa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6939D5A3BF67096ABE2ED64D26C20F49 /* objects.h in Headers */ = {isa = PBXBuildFile; fileRef = 4171ADD08377232F3465548409CD6D86 /* objects.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C5BCBACA3D3FAB7B9C3EA65CDC8A4D6 /* e_os2.h in Headers */ = {isa = PBXBuildFile; fileRef = 67A8CAD3B7AF80683A4BEBB663861DE7 /* e_os2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71024AEE0070B6843F3B05FB99601549 /* ALSPayManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F071BC8C0608F8A804A0483AD383DC7D /* ALSPayManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		711EF06C18692710A77471F972A89852 /* ossl_typ.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA1FE5D4652BC3A2704B2A7102057CD /* ossl_typ.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		763E3870E248A4065EC4D52BEFCE3943 /* x509v3.h in Headers */ = {isa = PBXBuildFile; fileRef = 16590DBD475479CC917FFA13A5D2A74E /* x509v3.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76F8A5B455DC3D90E0C156D59B485E9F /* conf.h in Headers */ = {isa = PBXBuildFile; fileRef = 23255A587478CA6A9AA61BC21640C015 /* conf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BFE0DE297E9DB0A56CA441D0DE89561 /* opensslconf.h in Headers */ = {isa = PBXBuildFile; fileRef = C936E32F524B315C6F760DD9A5F4BAB4 /* opensslconf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80354C26E67503B7CB3DEBDBCFB0F006 /* x509.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBA58DAAAA081779A0C647CDF053D3F /* x509.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		814DB8079112B81DE4AD83AA3A0A2D49 /* rand.h in Headers */ = {isa = PBXBuildFile; fileRef = 78CFA1FBF55627E24F738DCCF8D6ED43 /* rand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87993F80685A8FD9F6123BB0B35D5497 /* ALSRMAppReceipt.h in Headers */ = {isa = PBXBuildFile; fileRef = 86D1E08918B7C2218942FCA1F803C94A /* ALSRMAppReceipt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8976A34E53930DEAEA5C2813F7D07002 /* stack.h in Headers */ = {isa = PBXBuildFile; fileRef = 868A29E00B40EEDD68294E8B4016282D /* stack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B6B8EC89240F39C5A210EBFC9A0C4D8 /* bio.h in Headers */ = {isa = PBXBuildFile; fileRef = EB3AD2DADDABF11987D3319CE19122EF /* bio.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90D35B10FCA67BE169C490322164AB4F /* ALSRMStoreKeychainPersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = 656D1294F3D412066DF6CFFC3D447FBD /* ALSRMStoreKeychainPersistence.m */; };
+		916298B654469B6564F6C12DEBC84BC4 /* ebcdic.h in Headers */ = {isa = PBXBuildFile; fileRef = BE1F22A82AA4BF1A8307289228794170 /* ebcdic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91DBA06889A3D919ED7267FCDC2567F1 /* dtls1.h in Headers */ = {isa = PBXBuildFile; fileRef = 2297FB8F2A7E8BF1AB37EBE4E9DB15AC /* dtls1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93739C051B0E3866A601D051CDCDD282 /* ecdh.h in Headers */ = {isa = PBXBuildFile; fileRef = A9896E144EA0F7A94E752144AF854790 /* ecdh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9394517B42EF7D7A351D03A6AEC9E67D /* ALSPayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB87884A8B184945DA7E8847CDEEAEA /* ALSPayManager.m */; };
+		93BEB0C464D192A53CFCB07DEF992567 /* blowfish.h in Headers */ = {isa = PBXBuildFile; fileRef = F3D77095912402CD8EF79434B6FDC8A1 /* blowfish.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		941297FB64BD4AE80CA94722635B7B48 /* lhash.h in Headers */ = {isa = PBXBuildFile; fileRef = EDD9155A057630764388BFA3EB51E9A4 /* lhash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C2BB58589C0B7E8E1CE3A0F86DF3901 /* symhacks.h in Headers */ = {isa = PBXBuildFile; fileRef = F5781E598E38D1CF0A8D56E519FDBD3A /* symhacks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8BA128652B186738616F5C7E627E97 /* asn1.h in Headers */ = {isa = PBXBuildFile; fileRef = 40F2B42D49E08D8F4B62175A7FEB275B /* asn1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1B5F38E29D471B3D541835C6FCA1DA1 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53300C111719B8E5A2AE276F10F2A96D /* CoreTelephony.framework */; };
+		A1FE5C07A8335917511D2BB0844927A6 /* ALSRMStoreKeychainPersistence.h in Headers */ = {isa = PBXBuildFile; fileRef = 16413C1F72CA3255E075C2BB861DBDD9 /* ALSRMStoreKeychainPersistence.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2B866D6028DCBDD16155DE1F9881731 /* srtp.h in Headers */ = {isa = PBXBuildFile; fileRef = A57921091F1403A888CA21618CD33D00 /* srtp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A79582E32CC79335A5F55FB348C59B5B /* pqueue.h in Headers */ = {isa = PBXBuildFile; fileRef = CB2C28904EAC80770E3B6867DDE06FDE /* pqueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9EE39D8BE3BC9FC1F8CDBD5385E13D8 /* safestack.h in Headers */ = {isa = PBXBuildFile; fileRef = 39F24082199159D639B3730ECFEAF08B /* safestack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE69B69C89A3295D928228553E3C07AF /* x509_vfy.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FFBA67E274BC6AB5A3BFCF33C4F8FDC /* x509_vfy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF537B4E9108D12F7A94BE3015DD04F0 /* tls1.h in Headers */ = {isa = PBXBuildFile; fileRef = 50199CA6D0308A7E34BB7E1B07BF75A8 /* tls1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B138A7DD294F2786910D9D93D231EF5C /* kssl.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B3108440A3208B9A508BF54ECA24E8F /* kssl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B365C2911D65F8B66403DD4B61FD61C2 /* obj_mac.h in Headers */ = {isa = PBXBuildFile; fileRef = B4D3249DCAF912889C0A291C63FD678D /* obj_mac.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B39C0CB48624F6A904BBFBC47B25C36D /* md5.h in Headers */ = {isa = PBXBuildFile; fileRef = CAE54AC31254CCC6A1685035F3068F60 /* md5.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B46B677F4789DA2F81A9A30ECC7BFF57 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1423CE503C292FD75C789FCFEBAD134F /* CoreGraphics.framework */; };
+		B4D3B330D922587ED6E23623531F5025 /* rsa.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B15C92FA6A50C942813B61D2604397A /* rsa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5C19DF178E951169419620D15041BCD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 474962676397A9854C94AA936AC8A453 /* QuartzCore.framework */; };
+		B8BAC6641FA838AE08DB465374513BA1 /* WechatAuthSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = BD1E8E49E4B7BBC94421179BDBB26584 /* WechatAuthSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA99602023E08F12A9E575737432FA4F /* ALSPayMent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B57195AC21622B9F8535B68A960A0E49 /* ALSPayMent-dummy.m */; };
+		BBF45E1800A584256803CB229854C513 /* evp.h in Headers */ = {isa = PBXBuildFile; fileRef = 13C7B0F95AC6272A8040591B8352CCA1 /* evp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1F2F09C85983418ADDDDADC8FB15321 /* asn1t.h in Headers */ = {isa = PBXBuildFile; fileRef = 1901E6DFA8091DC45C166430B7E67399 /* asn1t.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1F4D645DA09A66000529A6D8C3907E6 /* dso.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DA34823F6BF90AC434C6CFAE98D9C6B /* dso.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C32FB428280E850201877A6B5E311ABD /* ALSRMStoreTransactionReceiptVerifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 29F450FDF608F782945FF70966DB6522 /* ALSRMStoreTransactionReceiptVerifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C645A9EF6965F16CC7789AD4171B78D8 /* DelegateToBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 022716BFC86DEEEA3C10740F797F9E16 /* DelegateToBlock.m */; };
+		C7475D81E44F26942B250102ACA8A1A9 /* md4.h in Headers */ = {isa = PBXBuildFile; fileRef = 266C352C9234278A7A8BF74D9E2F73B6 /* md4.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7F25DF023C4ACC56BB822DB19C64E5A /* ALSRMStoreTransactionReceiptVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = F87319FF812E1AA319956AF21F98F885 /* ALSRMStoreTransactionReceiptVerifier.m */; };
+		C873D67E99CAE6B80ACBBFDF2BFB2A2D /* rc2.h in Headers */ = {isa = PBXBuildFile; fileRef = 743B51E6497AD82B4BE072515886950C /* rc2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8B29C032A3CF90B247E6E723D26A2F1 /* pkcs7.h in Headers */ = {isa = PBXBuildFile; fileRef = A45D70158A43E0C86FE89E79D29E5843 /* pkcs7.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDFABB5369203F0577159432DDFEF196 /* ssl.h in Headers */ = {isa = PBXBuildFile; fileRef = 883E771479F672973CD495A460813C8C /* ssl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE2FAF8107899BFBD094BF3277F07A26 /* conf_api.h in Headers */ = {isa = PBXBuildFile; fileRef = E56334B4254E776EB7C13C605D5111F1 /* conf_api.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE6D73825F6387012ACECF70FB738C44 /* pkcs12.h in Headers */ = {isa = PBXBuildFile; fileRef = 7161921E4657684C8F72A60F0B4049C3 /* pkcs12.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D08B7A5508A8923A3D29FD657C2EF612 /* ALSRMStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A9DEEB62A6A0F017A05C659CE625D85 /* ALSRMStore.m */; };
+		D246BE69AEB320894B48FE96E1111CA7 /* cmac.h in Headers */ = {isa = PBXBuildFile; fileRef = A7C841614DF42B861034AA5312790408 /* cmac.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D29A20BC75223CA7EE8F75CF8FC6621C /* ui_compat.h in Headers */ = {isa = PBXBuildFile; fileRef = D09AA1E2E8F40987F9251B7342900B00 /* ui_compat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D485BDEA360658204259540BBA510604 /* txt_db.h in Headers */ = {isa = PBXBuildFile; fileRef = C79F43826C4D59DA6AD79BCEB21B2579 /* txt_db.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6678FF53F24546A2A1E9FF5A66BD30A /* pem.h in Headers */ = {isa = PBXBuildFile; fileRef = 406EF38D7D935566212CDC43C0EA95BA /* pem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D72DC74B2358E32DBA9B79851B225936 /* srp.h in Headers */ = {isa = PBXBuildFile; fileRef = E6823E47A0953759B305C0B0521F97F7 /* srp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7BFF3BA1663CE8FED4369205D6B9D8A /* camellia.h in Headers */ = {isa = PBXBuildFile; fileRef = 3374B0AFFD3B1CBE8E8EFB7E16D566E4 /* camellia.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7D1B826296774336817A92D0AC81B67 /* ALSRMStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 836A9F8B6454A348E2E063C172B75346 /* ALSRMStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBA12B8248DA81C1A74B90AEE617B90E /* ALSRMStoreAppReceiptVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = CC153B24ECBF8D59803D43289EB805EC /* ALSRMStoreAppReceiptVerifier.m */; };
+		DBFCCF2B2B58E9B151DE8BEDFE96A75E /* ripemd.h in Headers */ = {isa = PBXBuildFile; fileRef = BEA4895DCB56A864678F6BBBADCC9FE5 /* ripemd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD314E4E85DDC210A3E512193A1BE4B1 /* ALSRMStoreTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F93BC3D333B7ECD5EA72E7C81854F09 /* ALSRMStoreTransaction.m */; };
+		E065D84E7638E0549BC3E9248B110F5B /* Pods-ALSPayMent_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B4F6C11F482B77F92C19F3736CAA97 /* Pods-ALSPayMent_Example-dummy.m */; };
+		E1622BA3629F639254EC7E259C2AAFA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B62047B1006E45B73E146526EE31A4D5 /* Foundation.framework */; };
+		E392BD9D0CFC501EA46BA993B0A32259 /* engine.h in Headers */ = {isa = PBXBuildFile; fileRef = 45D81F316E9959EA9443B086C12D0DCD /* engine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4989BBD19934890FE8CC19AE136C01C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B62047B1006E45B73E146526EE31A4D5 /* Foundation.framework */; };
+		E503D0A263C53F694A79DC6A39AA5446 /* idea.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BA4216CF53D6F941671448AA1680621 /* idea.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8E674D8EC58DB8C9BE0754AEDCAECF2 /* hmac.h in Headers */ = {isa = PBXBuildFile; fileRef = 5853A75B7A9B049D637ABCB83A4D3F64 /* hmac.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDACEC6E360BEA0E2AE8B076AC9FCF08 /* opensslv.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E8BE2888117192F8F7C43B4311F8E1 /* opensslv.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F05C86380E03F5E0475DDB69D964F2A0 /* ssl3.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF7647F0914F1319D8FBB7B4C371502 /* ssl3.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F12EAA04AD0F8F660D1AE8D98D317D12 /* krb5_asn.h in Headers */ = {isa = PBXBuildFile; fileRef = 31F763EC726A60339E755A96D1800183 /* krb5_asn.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F14CF47DC6F3650C12418D93BBE2A2E9 /* comp.h in Headers */ = {isa = PBXBuildFile; fileRef = 75FD2267539129C3477105CFD4988985 /* comp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F16D5F0D70DB4263C5E36D930B677990 /* ALSRMAppReceipt.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D51D92E2C3793B8212C22ECB1C10004 /* ALSRMAppReceipt.m */; };
+		F28DE7E40E74998D608B1101FBDD96CA /* dh.h in Headers */ = {isa = PBXBuildFile; fileRef = C62AC45253BB1EE38C1A84BE51D79E11 /* dh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F42E376DB878B04B4A91B4BCBAA7D3AF /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = D26DC6F1751FC3040C6E525E2EF08190 /* WXApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA6F88188E156EADA31DF0508C942EC7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4BC2DFBDE1886A0A70BDF50665F182C /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2B66133F46FEB7D65899E2C17477A0A6 /* PBXContainerItemProxy */ = {
+		34E3D8D35C4BE5531BD47D1D5547E0A8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 34CD2E3428AB802BACA62286FF5074B1;
-			remoteInfo = FBSnapshotTestCase;
+			remoteGlobalIDString = 3CD83EFBFB128E019DA9B3CE277DE18F;
+			remoteInfo = ALSPayMent;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		0967FC3CB8A0FD0AAF775B6137A86405 /* Pods-ALSPayMent_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ALSPayMent_Example-dummy.m"; sourceTree = "<group>"; };
-		0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		0D958484EA8AA38AC8E3F7F706B747DD /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0E8597E56AD3F0A2DCCC760270A7B788 /* Pods-ALSPayMent_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ALSPayMent_Tests.modulemap"; sourceTree = "<group>"; };
-		123464415E186E2A6E7BCFA09AD46385 /* Pods-ALSPayMent_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ALSPayMent_Tests-umbrella.h"; sourceTree = "<group>"; };
-		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		21DBD15806D4D02F0A94B82F9C213A1E /* ALSInAppPurchase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ALSInAppPurchase.framework; path = ALSPayMent/Classes/ALSInAppPurchase.framework; sourceTree = "<group>"; };
-		22A015106057612EB4C2B9212DE52EEA /* Pods-ALSPayMent_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ALSPayMent_Example-frameworks.sh"; sourceTree = "<group>"; };
-		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		4DB141A0908629E4CEC87C81C06D9DC2 /* Pods-ALSPayMent_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ALSPayMent_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		5E0FD0BCE497AB937730D7D100F428A0 /* Pods-ALSPayMent_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ALSPayMent_Tests-dummy.m"; sourceTree = "<group>"; };
-		6935CA685887A3C935F61218CC90F8A3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6E66B4218824CF8160D93713DDBEEA82 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7234B39AC862D6E5F0B7F2DB430236A5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		73D037B3C804B9E1BB70538E342E5104 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		7BAE2C7CD6152DD85A2DDC2FCC380A23 /* Pods_ALSPayMent_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ALSPayMent_Example.framework; path = "Pods-ALSPayMent_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		823558E8AC8EB39D028DB5FBBEA227A3 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		8DDA288D6250FAD5A3FD399A5FEDC5D5 /* Pods-ALSPayMent_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ALSPayMent_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		9078FDAA464CDDB02A422E3666BD3C69 /* Pods_ALSPayMent_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ALSPayMent_Tests.framework; path = "Pods-ALSPayMent_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		022716BFC86DEEEA3C10740F797F9E16 /* DelegateToBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DelegateToBlock.m; sourceTree = "<group>"; };
+		04532BAFC91A718C4E24B4FA25390CFE /* asn1_mac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = asn1_mac.h; sourceTree = "<group>"; };
+		072B7E74270D0EF29B746E4D462DFD55 /* DelegateToBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DelegateToBlock.h; sourceTree = "<group>"; };
+		07B62AC4B27E9EDCADBC0532A9CC8961 /* Pods-ALSPayMent_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ALSPayMent_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0C935C5E2D9E6FB121BE2375F3066957 /* whrlpool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = whrlpool.h; sourceTree = "<group>"; };
+		0DB2D855F10247B05A4EE48043EDD2E0 /* ALSRMStoreTransaction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ALSRMStoreTransaction.h; sourceTree = "<group>"; };
+		0E209E5952228A18A5613AC79298CD75 /* ui.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ui.h; sourceTree = "<group>"; };
+		13C7B0F95AC6272A8040591B8352CCA1 /* evp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = evp.h; sourceTree = "<group>"; };
+		1423CE503C292FD75C789FCFEBAD134F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		156CC8F16CD6612B4331AB9BFDCF4AC3 /* pem2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pem2.h; sourceTree = "<group>"; };
+		16413C1F72CA3255E075C2BB861DBDD9 /* ALSRMStoreKeychainPersistence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ALSRMStoreKeychainPersistence.h; sourceTree = "<group>"; };
+		16590DBD475479CC917FFA13A5D2A74E /* x509v3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = x509v3.h; sourceTree = "<group>"; };
+		1901E6DFA8091DC45C166430B7E67399 /* asn1t.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = asn1t.h; sourceTree = "<group>"; };
+		1DABE3198E0E17787B108287625A095E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		1F93BC3D333B7ECD5EA72E7C81854F09 /* ALSRMStoreTransaction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ALSRMStoreTransaction.m; sourceTree = "<group>"; };
+		1FBA191B5DF788FC97D295FA39C417E5 /* ALSRMStoreAppReceiptVerifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ALSRMStoreAppReceiptVerifier.h; sourceTree = "<group>"; };
+		2297FB8F2A7E8BF1AB37EBE4E9DB15AC /* dtls1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = dtls1.h; sourceTree = "<group>"; };
+		23255A587478CA6A9AA61BC21640C015 /* conf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = conf.h; sourceTree = "<group>"; };
+		234BB6513DDD284AF750B548A75947CD /* ALSPayMent.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ALSPayMent.xcconfig; sourceTree = "<group>"; };
+		266C352C9234278A7A8BF74D9E2F73B6 /* md4.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = md4.h; sourceTree = "<group>"; };
+		29F450FDF608F782945FF70966DB6522 /* ALSRMStoreTransactionReceiptVerifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ALSRMStoreTransactionReceiptVerifier.h; sourceTree = "<group>"; };
+		2B84C06EB3CB0AE4116E38E71EDE8B6C /* bn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = bn.h; sourceTree = "<group>"; };
+		2D7AC4FDD01B5DC3CF5611026589CCDD /* dsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = dsa.h; sourceTree = "<group>"; };
+		2FFBA67E274BC6AB5A3BFCF33C4F8FDC /* x509_vfy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = x509_vfy.h; sourceTree = "<group>"; };
+		318A1F4F98B804E004A5DEDFBAA7EA8F /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		31F763EC726A60339E755A96D1800183 /* krb5_asn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = krb5_asn.h; sourceTree = "<group>"; };
+		32600613DF531F4B5612A8472493094F /* ts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ts.h; sourceTree = "<group>"; };
+		3328431D493D8CEA3A786E0C042E7339 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
+		3374B0AFFD3B1CBE8E8EFB7E16D566E4 /* camellia.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = camellia.h; sourceTree = "<group>"; };
+		39F24082199159D639B3730ECFEAF08B /* safestack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = safestack.h; sourceTree = "<group>"; };
+		3C9FE09440EB4387A52F5A374CFD189A /* err.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = err.h; sourceTree = "<group>"; };
+		3D51D92E2C3793B8212C22ECB1C10004 /* ALSRMAppReceipt.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ALSRMAppReceipt.m; sourceTree = "<group>"; };
+		406EF38D7D935566212CDC43C0EA95BA /* pem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pem.h; sourceTree = "<group>"; };
+		40F2B42D49E08D8F4B62175A7FEB275B /* asn1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = asn1.h; sourceTree = "<group>"; };
+		4171ADD08377232F3465548409CD6D86 /* objects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = objects.h; sourceTree = "<group>"; };
+		422AA42725E51CF746670902B58A6514 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		45D81F316E9959EA9443B086C12D0DCD /* engine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = engine.h; sourceTree = "<group>"; };
+		46510AD4410FBEDA28F65162BFF5C81B /* ssl23.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ssl23.h; sourceTree = "<group>"; };
+		474962676397A9854C94AA936AC8A453 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		481D481EF017C8595A790ADE359A4871 /* sha.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = sha.h; sourceTree = "<group>"; };
+		4A9DEEB62A6A0F017A05C659CE625D85 /* ALSRMStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ALSRMStore.m; sourceTree = "<group>"; };
+		4BBA74E0AA617BA0B6E00FFC417CBE51 /* ec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ec.h; sourceTree = "<group>"; };
+		4E125746C213587EBF3E7811BAC59AB1 /* libcrypto.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libcrypto.a; path = ALSPayMent/lib/libcrypto.a; sourceTree = "<group>"; };
+		50199CA6D0308A7E34BB7E1B07BF75A8 /* tls1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = tls1.h; sourceTree = "<group>"; };
+		53300C111719B8E5A2AE276F10F2A96D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		5853A75B7A9B049D637ABCB83A4D3F64 /* hmac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
+		5AF053A3779D924FEA2E99CDDAE7687E /* AlipaySDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		6317A1C97E217F8AC961845A47717EC7 /* cms.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = cms.h; sourceTree = "<group>"; };
+		656D1294F3D412066DF6CFFC3D447FBD /* ALSRMStoreKeychainPersistence.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ALSRMStoreKeychainPersistence.m; sourceTree = "<group>"; };
+		67A8CAD3B7AF80683A4BEBB663861DE7 /* e_os2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = e_os2.h; sourceTree = "<group>"; };
+		68757DF16ABAEA96F37C9178C0E06678 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = ALSPayMent/lib/libWeChatSDK.a; sourceTree = "<group>"; };
+		6B15C92FA6A50C942813B61D2604397A /* rsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = rsa.h; sourceTree = "<group>"; };
+		6CC8480C26F303BA1558D67DB98F8EB0 /* AlipaySDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		6DA34823F6BF90AC434C6CFAE98D9C6B /* dso.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = dso.h; sourceTree = "<group>"; };
+		6FA60F06A33BD8E47CF278906BB27BDD /* cast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = cast.h; sourceTree = "<group>"; };
+		6FF7647F0914F1319D8FBB7B4C371502 /* ssl3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ssl3.h; sourceTree = "<group>"; };
+		70A994117590E5FF121AB87BE57F43F2 /* rc4.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = rc4.h; sourceTree = "<group>"; };
+		7161921E4657684C8F72A60F0B4049C3 /* pkcs12.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pkcs12.h; sourceTree = "<group>"; };
+		7259D1B9B8C359C0C4E8770B3F524307 /* ALSAppleIncRootCertificate.cer */ = {isa = PBXFileReference; includeInIndex = 1; path = ALSAppleIncRootCertificate.cer; sourceTree = "<group>"; };
+		743B51E6497AD82B4BE072515886950C /* rc2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = rc2.h; sourceTree = "<group>"; };
+		75FD2267539129C3477105CFD4988985 /* comp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = comp.h; sourceTree = "<group>"; };
+		78CA9E555F3A428C95F5EA8E6F708F69 /* libssl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libssl.a; path = ALSPayMent/lib/libssl.a; sourceTree = "<group>"; };
+		78CFA1FBF55627E24F738DCCF8D6ED43 /* rand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = rand.h; sourceTree = "<group>"; };
+		79871FC0F1BEB2854AC285CD8B8C3253 /* mdc2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = mdc2.h; sourceTree = "<group>"; };
+		7B42D3F8DD9374BFFB66A6BABED12CC0 /* aes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
+		7F827B6693023219C3375C1335FDD01E /* ALSPayMent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALSPayMent-prefix.pch"; sourceTree = "<group>"; };
+		8349A5E64BBEF8FB65971DED4AA772A3 /* ALSRMStoreUserDefaultsPersistence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ALSRMStoreUserDefaultsPersistence.h; sourceTree = "<group>"; };
+		836A9F8B6454A348E2E063C172B75346 /* ALSRMStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ALSRMStore.h; sourceTree = "<group>"; };
+		83D8391C6AE4F51ED43552F980B99420 /* ALSInAppPurchase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ALSInAppPurchase.h; sourceTree = "<group>"; };
+		85E8BE2888117192F8F7C43B4311F8E1 /* opensslv.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = opensslv.h; sourceTree = "<group>"; };
+		868A29E00B40EEDD68294E8B4016282D /* stack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
+		86D1E08918B7C2218942FCA1F803C94A /* ALSRMAppReceipt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ALSRMAppReceipt.h; sourceTree = "<group>"; };
+		883E771479F672973CD495A460813C8C /* ssl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ssl.h; sourceTree = "<group>"; };
+		8B3108440A3208B9A508BF54ECA24E8F /* kssl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = kssl.h; sourceTree = "<group>"; };
+		8BA4216CF53D6F941671448AA1680621 /* idea.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = idea.h; sourceTree = "<group>"; };
+		912019C277BD2002EC9490D642994362 /* Pods-ALSPayMent_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ALSPayMent_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		952424CBEE76D186FDE136D68DF97485 /* Pods-ALSPayMent_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ALSPayMent_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		95E46F32BDAF6CEE84B65F646CA93F61 /* Pods-ALSPayMent_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ALSPayMent_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9D47731DA5C7619AA7166FD655648C94 /* Pods-ALSPayMent_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ALSPayMent_Example-resources.sh"; sourceTree = "<group>"; };
-		A27810809BAD71E4022600B21251449F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		B537A0092F604DBF19844F6056868B6F /* Pods-ALSPayMent_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ALSPayMent_Example-umbrella.h"; sourceTree = "<group>"; };
-		B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		C393AC921143949D2FFF1EBF7AD3A0B2 /* Pods-ALSPayMent_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ALSPayMent_Example.modulemap"; sourceTree = "<group>"; };
-		C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CC12BCFA3FC0B8C307F5B38C673EDD12 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		D0113C30E8386F79068A9E6754AA12F3 /* Pods-ALSPayMent_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ALSPayMent_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		D4D64E9C6A544477707448736A60B1AF /* Pods-ALSPayMent_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ALSPayMent_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		DADAF30F2D84FDAAD2ADD2D50C1F40DF /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
-		DAE1B5CF1EAB16F25FE1D8023816FE37 /* Pods-ALSPayMent_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ALSPayMent_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
-		ECBCB19FB6394D36BF3A5CC40F01FB96 /* Pods-ALSPayMent_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ALSPayMent_Tests-resources.sh"; sourceTree = "<group>"; };
-		EEF22D710607C14DA5712CF7B814D270 /* Pods-ALSPayMent_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ALSPayMent_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		FFB4F4F0908D6B6D7895C94480E35112 /* Pods-ALSPayMent_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ALSPayMent_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		985959903D23A42EFBB523B38D67B531 /* seed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = seed.h; sourceTree = "<group>"; };
+		9CE4AECBDEDEE62F204109AB6BC03CE6 /* ALSRMStoreUserDefaultsPersistence.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ALSRMStoreUserDefaultsPersistence.m; sourceTree = "<group>"; };
+		A0418850F74770B517617262977663C2 /* Pods-ALSPayMent_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ALSPayMent_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A141434C526BB5DFFC375EDE5C980BCF /* crypto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = crypto.h; sourceTree = "<group>"; };
+		A45D70158A43E0C86FE89E79D29E5843 /* pkcs7.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pkcs7.h; sourceTree = "<group>"; };
+		A57921091F1403A888CA21618CD33D00 /* srtp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = srtp.h; sourceTree = "<group>"; };
+		A7C841614DF42B861034AA5312790408 /* cmac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = cmac.h; sourceTree = "<group>"; };
+		A9896E144EA0F7A94E752144AF854790 /* ecdh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ecdh.h; sourceTree = "<group>"; };
+		AC2D0F316AD2C0DC1F390F63DBCB99EC /* Pods-ALSPayMent_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ALSPayMent_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		AD9471DF6BAAE0B6F69538C6D9A38D3D /* libPods-ALSPayMent_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ALSPayMent_Tests.a"; path = "libPods-ALSPayMent_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEB87884A8B184945DA7E8847CDEEAEA /* ALSPayManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ALSPayManager.m; sourceTree = "<group>"; };
+		B4D3249DCAF912889C0A291C63FD678D /* obj_mac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = obj_mac.h; sourceTree = "<group>"; };
+		B57195AC21622B9F8535B68A960A0E49 /* ALSPayMent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ALSPayMent-dummy.m"; sourceTree = "<group>"; };
+		B62047B1006E45B73E146526EE31A4D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B880070A9C068C27F7084A2C50EDFC39 /* Pods-ALSPayMent_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ALSPayMent_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BCA3C0C55FA23A1B754E4C5603E55920 /* modes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = modes.h; sourceTree = "<group>"; };
+		BD1E8E49E4B7BBC94421179BDBB26584 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		BDBA58DAAAA081779A0C647CDF053D3F /* x509.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = x509.h; sourceTree = "<group>"; };
+		BE1F22A82AA4BF1A8307289228794170 /* ebcdic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ebcdic.h; sourceTree = "<group>"; };
+		BE2C682AE3AF5E158D6239A3B005240B /* ecdsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ecdsa.h; sourceTree = "<group>"; };
+		BE4577D59EA242CF5F2E74B636932B16 /* ssl2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ssl2.h; sourceTree = "<group>"; };
+		BEA4895DCB56A864678F6BBBADCC9FE5 /* ripemd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ripemd.h; sourceTree = "<group>"; };
+		C3FB2A8AF6056219BDC83CAC74515950 /* libPods-ALSPayMent_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ALSPayMent_Example.a"; path = "libPods-ALSPayMent_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C584FC4E27CEE9E9256CBF52F7222842 /* Pods-ALSPayMent_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ALSPayMent_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C62AC45253BB1EE38C1A84BE51D79E11 /* dh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = dh.h; sourceTree = "<group>"; };
+		C79F43826C4D59DA6AD79BCEB21B2579 /* txt_db.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = txt_db.h; sourceTree = "<group>"; };
+		C7C1D545A8A558F14D66C9728B747008 /* Pods-ALSPayMent_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ALSPayMent_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C936E32F524B315C6F760DD9A5F4BAB4 /* opensslconf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = opensslconf.h; sourceTree = "<group>"; };
+		CAE54AC31254CCC6A1685035F3068F60 /* md5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
+		CB2C28904EAC80770E3B6867DDE06FDE /* pqueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pqueue.h; sourceTree = "<group>"; };
+		CC153B24ECBF8D59803D43289EB805EC /* ALSRMStoreAppReceiptVerifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ALSRMStoreAppReceiptVerifier.m; sourceTree = "<group>"; };
+		CC5B86D4F063276333CD74E11B12D2D6 /* des.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = des.h; sourceTree = "<group>"; };
+		D09AA1E2E8F40987F9251B7342900B00 /* ui_compat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ui_compat.h; sourceTree = "<group>"; };
+		D26DC6F1751FC3040C6E525E2EF08190 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		D4BC2DFBDE1886A0A70BDF50665F182C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D663FEEE6E68464F3704FDD7922C12C9 /* des_old.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = des_old.h; sourceTree = "<group>"; };
+		D7AFEB4972336B926A3F451BD23E0415 /* Pods-ALSPayMent_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ALSPayMent_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DD719A7E50F2F8C8BC9AFA77CCD5C253 /* libALSPayMent.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libALSPayMent.a; path = libALSPayMent.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4F49AEF16C02A84138EF98A8C2476A5 /* Pods-ALSPayMent_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ALSPayMent_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E56334B4254E776EB7C13C605D5111F1 /* conf_api.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = conf_api.h; sourceTree = "<group>"; };
+		E6823E47A0953759B305C0B0521F97F7 /* srp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = srp.h; sourceTree = "<group>"; };
+		E7944F3D1276FC1C03EC48B3B842CCC9 /* Pods-ALSPayMent_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ALSPayMent_Example-resources.sh"; sourceTree = "<group>"; };
+		EB3AD2DADDABF11987D3319CE19122EF /* bio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = bio.h; sourceTree = "<group>"; };
+		EDD9155A057630764388BFA3EB51E9A4 /* lhash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = lhash.h; sourceTree = "<group>"; };
+		EE8EB0284983189C7466DFB10671EF1A /* buffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = buffer.h; sourceTree = "<group>"; };
+		F01A3984D7C017E724C0E34752ADF28C /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		F071BC8C0608F8A804A0483AD383DC7D /* ALSPayManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ALSPayManager.h; sourceTree = "<group>"; };
+		F3D77095912402CD8EF79434B6FDC8A1 /* blowfish.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = blowfish.h; sourceTree = "<group>"; };
+		F5781E598E38D1CF0A8D56E519FDBD3A /* symhacks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = symhacks.h; sourceTree = "<group>"; };
+		F5B4F6C11F482B77F92C19F3736CAA97 /* Pods-ALSPayMent_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ALSPayMent_Example-dummy.m"; sourceTree = "<group>"; };
+		F5F939C5352963A6F1B211BA762B8270 /* ocsp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ocsp.h; sourceTree = "<group>"; };
+		F87319FF812E1AA319956AF21F98F885 /* ALSRMStoreTransactionReceiptVerifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ALSRMStoreTransactionReceiptVerifier.m; sourceTree = "<group>"; };
+		F882FE768EA03ECF3B0C4C64582747D2 /* Pods-ALSPayMent_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ALSPayMent_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FAA1FE5D4652BC3A2704B2A7102057CD /* ossl_typ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ossl_typ.h; sourceTree = "<group>"; };
+		FE1FDCCA65F232FF54E2D4EDF0657E6E /* Pods-ALSPayMent_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ALSPayMent_Tests-resources.sh"; sourceTree = "<group>"; };
+		FEA67A2820699489749A6BEEA9B161C9 /* Pods-ALSPayMent_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ALSPayMent_Tests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1D421A30A1BDB7E1C4216F64D0C939B1 /* Frameworks */ = {
+		1051AFAA5069B7C8338364FCC3A67973 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91D0138ACFAD733E4061F12E450C336C /* Foundation.framework in Frameworks */,
-				B27DFD6025D94758785918F1D6F6C060 /* QuartzCore.framework in Frameworks */,
-				841FF232C33C7D49C58CEFDBE7EEB92B /* UIKit.framework in Frameworks */,
-				7E9B14D5F8842A86CA86F2AF45230725 /* XCTest.framework in Frameworks */,
+				B46B677F4789DA2F81A9A30ECC7BFF57 /* CoreGraphics.framework in Frameworks */,
+				043B77AF6EFFFE97E85C1628571B5A4D /* CoreMotion.framework in Frameworks */,
+				A1B5F38E29D471B3D541835C6FCA1DA1 /* CoreTelephony.framework in Frameworks */,
+				E4989BBD19934890FE8CC19AE136C01C /* Foundation.framework in Frameworks */,
+				B5C19DF178E951169419620D15041BCD /* QuartzCore.framework in Frameworks */,
+				5D5BC010ACC78C31AB05A873AFB9FBCE /* Security.framework in Frameworks */,
+				1C6A18AE8E9DC3253DEE224223A85CF1 /* SystemConfiguration.framework in Frameworks */,
+				FA6F88188E156EADA31DF0508C942EC7 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		83B663FD24CFE87BB9266F9CCECED84D /* Frameworks */ = {
+		7D3D4C49408EC4DE0546E75701A9DD93 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF1488533F269DE28C8B76AE50702EAB /* Foundation.framework in Frameworks */,
+				E1622BA3629F639254EC7E259C2AAFA1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9499F8860C455B6700601395944F6A2D /* Frameworks */ = {
+		CA8B44A645EA9CC72531E414C80B3833 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26E9C26355011A65A27872CC368D2AD8 /* Foundation.framework in Frameworks */,
+				476602DC33014D247D1055B05C35E883 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+		0CDF99C549C576A81BF2CBB31AD83D82 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8D22B0D091B0427E43C82354D9CA8E06 /* iOS */,
+				1E7ABFD854BAEAD2FD2EB493227B3980 /* AlipaySDKIniOS */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0E3E6602ED2A46FC89DD2148B7651825 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				89940726FF5D7235BEE95B6D3594EA78 /* Pods-ALSPayMent_Example */,
+				6AD5D557C33F7E630B437569E1DF6C96 /* Pods-ALSPayMent_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1737ADD76136B44CF5FE77B07D80FECC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD719A7E50F2F8C8BC9AFA77CCD5C253 /* libALSPayMent.a */,
+				C3FB2A8AF6056219BDC83CAC74515950 /* libPods-ALSPayMent_Example.a */,
+				AD9471DF6BAAE0B6F69538C6D9A38D3D /* libPods-ALSPayMent_Tests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E7ABFD854BAEAD2FD2EB493227B3980 /* AlipaySDKIniOS */ = {
+			isa = PBXGroup;
+			children = (
+				21D2498967ECCB106FECC42D8B441969 /* Frameworks */,
+				741803D510C81C5D10C15D2EBA360F64 /* Resources */,
+			);
+			name = AlipaySDKIniOS;
+			path = AlipaySDKIniOS;
+			sourceTree = "<group>";
+		};
+		21D2498967ECCB106FECC42D8B441969 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F01A3984D7C017E724C0E34752ADF28C /* AlipaySDK.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1549F91FCD089822594C1F5DB8AB9E8F /* Support Files */ = {
+		23F5BDFE9F0F1AEDF1A77B212C9917F5 /* openssl */ = {
 			isa = PBXGroup;
 			children = (
-				823558E8AC8EB39D028DB5FBBEA227A3 /* FBSnapshotTestCase.modulemap */,
-				DADAF30F2D84FDAAD2ADD2D50C1F40DF /* FBSnapshotTestCase.xcconfig */,
-				52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */,
-				CC12BCFA3FC0B8C307F5B38C673EDD12 /* FBSnapshotTestCase-prefix.pch */,
-				73D037B3C804B9E1BB70538E342E5104 /* FBSnapshotTestCase-umbrella.h */,
-				6E66B4218824CF8160D93713DDBEEA82 /* Info.plist */,
+				B3E7E5691B58603862A0E14F0A78CD5D /* include */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/FBSnapshotTestCase";
+			name = openssl;
+			path = openssl;
 			sourceTree = "<group>";
 		};
-		2287B5EBEAA3C332F8DB9A1E61F5B097 /* FBSnapshotTestCase */ = {
+		2C3254D6C340765390FADE0F15E875EA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F35791481CAFDD8E7715AE1B44687328 /* Core */,
-				1549F91FCD089822594C1F5DB8AB9E8F /* Support Files */,
-				99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */,
+				4E125746C213587EBF3E7811BAC59AB1 /* libcrypto.a */,
+				78CA9E555F3A428C95F5EA8E6F708F69 /* libssl.a */,
+				68757DF16ABAEA96F37C9178C0E06678 /* libWeChatSDK.a */,
 			);
-			name = FBSnapshotTestCase;
-			path = FBSnapshotTestCase;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3FAAD2389526E8AE5BDCCCC85B90CB02 /* Development Pods */ = {
+		31480672FBE407F2217255C13E935FDC /* ALSPayMent */ = {
 			isa = PBXGroup;
 			children = (
-				C30DFCBEE02BD21FBA9FA03B22FB135D /* ALSPayMent */,
+				8F8E1236CC4F2A6248299CE196B355AC /* lib */,
 			);
-			name = "Development Pods";
+			name = ALSPayMent;
+			path = ALSPayMent;
+			sourceTree = "<group>";
+		};
+		5A07853ED5C3B2ACEC0B17DC3840144A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				83D8391C6AE4F51ED43552F980B99420 /* ALSInAppPurchase.h */,
+				F071BC8C0608F8A804A0483AD383DC7D /* ALSPayManager.h */,
+				AEB87884A8B184945DA7E8847CDEEAEA /* ALSPayManager.m */,
+				836A9F8B6454A348E2E063C172B75346 /* ALSRMStore.h */,
+				4A9DEEB62A6A0F017A05C659CE625D85 /* ALSRMStore.m */,
+				072B7E74270D0EF29B746E4D462DFD55 /* DelegateToBlock.h */,
+				022716BFC86DEEEA3C10740F797F9E16 /* DelegateToBlock.m */,
+				BD1E8E49E4B7BBC94421179BDBB26584 /* WechatAuthSDK.h */,
+				D26DC6F1751FC3040C6E525E2EF08190 /* WXApi.h */,
+				318A1F4F98B804E004A5DEDFBAA7EA8F /* WXApiObject.h */,
+				23F5BDFE9F0F1AEDF1A77B212C9917F5 /* openssl */,
+				EDDC9F03BA10E3D1EB4F9CB3A82B5048 /* Optional */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6AD5D557C33F7E630B437569E1DF6C96 /* Pods-ALSPayMent_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A0418850F74770B517617262977663C2 /* Pods-ALSPayMent_Tests-acknowledgements.markdown */,
+				B880070A9C068C27F7084A2C50EDFC39 /* Pods-ALSPayMent_Tests-acknowledgements.plist */,
+				FEA67A2820699489749A6BEEA9B161C9 /* Pods-ALSPayMent_Tests-dummy.m */,
+				912019C277BD2002EC9490D642994362 /* Pods-ALSPayMent_Tests-frameworks.sh */,
+				FE1FDCCA65F232FF54E2D4EDF0657E6E /* Pods-ALSPayMent_Tests-resources.sh */,
+				F882FE768EA03ECF3B0C4C64582747D2 /* Pods-ALSPayMent_Tests.debug.xcconfig */,
+				C584FC4E27CEE9E9256CBF52F7222842 /* Pods-ALSPayMent_Tests.release.xcconfig */,
+			);
+			name = "Pods-ALSPayMent_Tests";
+			path = "Target Support Files/Pods-ALSPayMent_Tests";
+			sourceTree = "<group>";
+		};
+		741803D510C81C5D10C15D2EBA360F64 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6CC8480C26F303BA1558D67DB98F8EB0 /* AlipaySDK.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		76BEFE4123DEB06D9B5CD4D32D8BEA1B /* ALSPayMent */ = {
+			isa = PBXGroup;
+			children = (
+				5A07853ED5C3B2ACEC0B17DC3840144A /* Classes */,
+			);
+			name = ALSPayMent;
+			path = ALSPayMent;
+			sourceTree = "<group>";
+		};
+		785553737B06AFC3DA711DDEB7D56194 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1BF336294652946BF37FA25852D2FB1 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				3FAAD2389526E8AE5BDCCCC85B90CB02 /* Development Pods */,
-				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
-				FBD2D672921284E66F309CA3462F84D6 /* Pods */,
-				99F26E81E7A7CC85E32A3A073F8392C6 /* Products */,
-				AF8627CBB6190BDE9C34633BBC400BC3 /* Targets Support Files */,
+				94810F78E7CEC3401D4ECE7F3549633A /* Development Pods */,
+				785553737B06AFC3DA711DDEB7D56194 /* Frameworks */,
+				0CDF99C549C576A81BF2CBB31AD83D82 /* Pods */,
+				1737ADD76136B44CF5FE77B07D80FECC /* Products */,
+				0E3E6602ED2A46FC89DD2148B7651825 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8B5A1F875CC0A41C443980D0E2EC95C7 /* Pods-ALSPayMent_Example */ = {
+		8848F764E2B841348B1ED61F3367CF0D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				6935CA685887A3C935F61218CC90F8A3 /* Info.plist */,
-				C393AC921143949D2FFF1EBF7AD3A0B2 /* Pods-ALSPayMent_Example.modulemap */,
-				4DB141A0908629E4CEC87C81C06D9DC2 /* Pods-ALSPayMent_Example-acknowledgements.markdown */,
-				D0113C30E8386F79068A9E6754AA12F3 /* Pods-ALSPayMent_Example-acknowledgements.plist */,
-				0967FC3CB8A0FD0AAF775B6137A86405 /* Pods-ALSPayMent_Example-dummy.m */,
-				22A015106057612EB4C2B9212DE52EEA /* Pods-ALSPayMent_Example-frameworks.sh */,
-				9D47731DA5C7619AA7166FD655648C94 /* Pods-ALSPayMent_Example-resources.sh */,
-				B537A0092F604DBF19844F6056868B6F /* Pods-ALSPayMent_Example-umbrella.h */,
-				EEF22D710607C14DA5712CF7B814D270 /* Pods-ALSPayMent_Example.debug.xcconfig */,
-				D4D64E9C6A544477707448736A60B1AF /* Pods-ALSPayMent_Example.release.xcconfig */,
+				31480672FBE407F2217255C13E935FDC /* ALSPayMent */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		89940726FF5D7235BEE95B6D3594EA78 /* Pods-ALSPayMent_Example */ = {
+			isa = PBXGroup;
+			children = (
+				07B62AC4B27E9EDCADBC0532A9CC8961 /* Pods-ALSPayMent_Example-acknowledgements.markdown */,
+				D7AFEB4972336B926A3F451BD23E0415 /* Pods-ALSPayMent_Example-acknowledgements.plist */,
+				F5B4F6C11F482B77F92C19F3736CAA97 /* Pods-ALSPayMent_Example-dummy.m */,
+				E4F49AEF16C02A84138EF98A8C2476A5 /* Pods-ALSPayMent_Example-frameworks.sh */,
+				E7944F3D1276FC1C03EC48B3B842CCC9 /* Pods-ALSPayMent_Example-resources.sh */,
+				AC2D0F316AD2C0DC1F390F63DBCB99EC /* Pods-ALSPayMent_Example.debug.xcconfig */,
+				C7C1D545A8A558F14D66C9728B747008 /* Pods-ALSPayMent_Example.release.xcconfig */,
 			);
 			name = "Pods-ALSPayMent_Example";
 			path = "Target Support Files/Pods-ALSPayMent_Example";
 			sourceTree = "<group>";
 		};
-		8D22B0D091B0427E43C82354D9CA8E06 /* iOS */ = {
+		8F8E1236CC4F2A6248299CE196B355AC /* lib */ = {
 			isa = PBXGroup;
 			children = (
-				C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */,
-				A27810809BAD71E4022600B21251449F /* QuartzCore.framework */,
-				AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */,
-				3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */,
+				5AF053A3779D924FEA2E99CDDAE7687E /* AlipaySDK.bundle */,
+				7259D1B9B8C359C0C4E8770B3F524307 /* ALSAppleIncRootCertificate.cer */,
 			);
-			name = iOS;
+			name = lib;
+			path = lib;
 			sourceTree = "<group>";
 		};
-		99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */ = {
+		94810F78E7CEC3401D4ECE7F3549633A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */,
+				A9326C3D681281EB01E36DBBA9D45892 /* ALSPayMent */,
 			);
-			name = SwiftSupport;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		99F26E81E7A7CC85E32A3A073F8392C6 /* Products */ = {
+		A9326C3D681281EB01E36DBBA9D45892 /* ALSPayMent */ = {
 			isa = PBXGroup;
 			children = (
-				0D958484EA8AA38AC8E3F7F706B747DD /* FBSnapshotTestCase.framework */,
-				7BAE2C7CD6152DD85A2DDC2FCC380A23 /* Pods_ALSPayMent_Example.framework */,
-				9078FDAA464CDDB02A422E3666BD3C69 /* Pods_ALSPayMent_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		AF8627CBB6190BDE9C34633BBC400BC3 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8B5A1F875CC0A41C443980D0E2EC95C7 /* Pods-ALSPayMent_Example */,
-				D801B4671A5725A9B6CDC8BF2EC9DC32 /* Pods-ALSPayMent_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		C30DFCBEE02BD21FBA9FA03B22FB135D /* ALSPayMent */ = {
-			isa = PBXGroup;
-			children = (
-				F5E04A6B30E2220B7E32F3700FD643CB /* Frameworks */,
+				EF01B128D5C39E28EAB8FCAAC13AA97A /* Core */,
+				FEB211B802811CF9396B7F6746ED02B7 /* Support Files */,
 			);
 			name = ALSPayMent;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		D801B4671A5725A9B6CDC8BF2EC9DC32 /* Pods-ALSPayMent_Tests */ = {
+		B3E7E5691B58603862A0E14F0A78CD5D /* include */ = {
 			isa = PBXGroup;
 			children = (
-				7234B39AC862D6E5F0B7F2DB430236A5 /* Info.plist */,
-				0E8597E56AD3F0A2DCCC760270A7B788 /* Pods-ALSPayMent_Tests.modulemap */,
-				FFB4F4F0908D6B6D7895C94480E35112 /* Pods-ALSPayMent_Tests-acknowledgements.markdown */,
-				952424CBEE76D186FDE136D68DF97485 /* Pods-ALSPayMent_Tests-acknowledgements.plist */,
-				5E0FD0BCE497AB937730D7D100F428A0 /* Pods-ALSPayMent_Tests-dummy.m */,
-				8DDA288D6250FAD5A3FD399A5FEDC5D5 /* Pods-ALSPayMent_Tests-frameworks.sh */,
-				ECBCB19FB6394D36BF3A5CC40F01FB96 /* Pods-ALSPayMent_Tests-resources.sh */,
-				123464415E186E2A6E7BCFA09AD46385 /* Pods-ALSPayMent_Tests-umbrella.h */,
-				95E46F32BDAF6CEE84B65F646CA93F61 /* Pods-ALSPayMent_Tests.debug.xcconfig */,
-				DAE1B5CF1EAB16F25FE1D8023816FE37 /* Pods-ALSPayMent_Tests.release.xcconfig */,
+				F83ABFF67D64C3A52ECB82AC0DF97BB7 /* openssl */,
 			);
-			name = "Pods-ALSPayMent_Tests";
-			path = "Target Support Files/Pods-ALSPayMent_Tests";
+			name = include;
+			path = include;
 			sourceTree = "<group>";
 		};
-		F35791481CAFDD8E7715AE1B44687328 /* Core */ = {
+		C1BF336294652946BF37FA25852D2FB1 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */,
-				39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */,
-				7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */,
-				58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */,
-				1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */,
-				052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */,
-				B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */,
-				2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */,
-				432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */,
-				3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */,
-				85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */,
-				B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */,
-				0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */,
-				3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */,
+				1423CE503C292FD75C789FCFEBAD134F /* CoreGraphics.framework */,
+				3328431D493D8CEA3A786E0C042E7339 /* CoreMotion.framework */,
+				53300C111719B8E5A2AE276F10F2A96D /* CoreTelephony.framework */,
+				B62047B1006E45B73E146526EE31A4D5 /* Foundation.framework */,
+				474962676397A9854C94AA936AC8A453 /* QuartzCore.framework */,
+				422AA42725E51CF746670902B58A6514 /* Security.framework */,
+				1DABE3198E0E17787B108287625A095E /* SystemConfiguration.framework */,
+				D4BC2DFBDE1886A0A70BDF50665F182C /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EDDC9F03BA10E3D1EB4F9CB3A82B5048 /* Optional */ = {
+			isa = PBXGroup;
+			children = (
+				86D1E08918B7C2218942FCA1F803C94A /* ALSRMAppReceipt.h */,
+				3D51D92E2C3793B8212C22ECB1C10004 /* ALSRMAppReceipt.m */,
+				1FBA191B5DF788FC97D295FA39C417E5 /* ALSRMStoreAppReceiptVerifier.h */,
+				CC153B24ECBF8D59803D43289EB805EC /* ALSRMStoreAppReceiptVerifier.m */,
+				16413C1F72CA3255E075C2BB861DBDD9 /* ALSRMStoreKeychainPersistence.h */,
+				656D1294F3D412066DF6CFFC3D447FBD /* ALSRMStoreKeychainPersistence.m */,
+				0DB2D855F10247B05A4EE48043EDD2E0 /* ALSRMStoreTransaction.h */,
+				1F93BC3D333B7ECD5EA72E7C81854F09 /* ALSRMStoreTransaction.m */,
+				29F450FDF608F782945FF70966DB6522 /* ALSRMStoreTransactionReceiptVerifier.h */,
+				F87319FF812E1AA319956AF21F98F885 /* ALSRMStoreTransactionReceiptVerifier.m */,
+				8349A5E64BBEF8FB65971DED4AA772A3 /* ALSRMStoreUserDefaultsPersistence.h */,
+				9CE4AECBDEDEE62F204109AB6BC03CE6 /* ALSRMStoreUserDefaultsPersistence.m */,
+			);
+			name = Optional;
+			path = Optional;
+			sourceTree = "<group>";
+		};
+		EF01B128D5C39E28EAB8FCAAC13AA97A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				76BEFE4123DEB06D9B5CD4D32D8BEA1B /* ALSPayMent */,
+				2C3254D6C340765390FADE0F15E875EA /* Frameworks */,
+				8848F764E2B841348B1ED61F3367CF0D /* Resources */,
 			);
 			name = Core;
 			sourceTree = "<group>";
 		};
-		F5E04A6B30E2220B7E32F3700FD643CB /* Frameworks */ = {
+		F83ABFF67D64C3A52ECB82AC0DF97BB7 /* openssl */ = {
 			isa = PBXGroup;
 			children = (
-				21DBD15806D4D02F0A94B82F9C213A1E /* ALSInAppPurchase.framework */,
+				7B42D3F8DD9374BFFB66A6BABED12CC0 /* aes.h */,
+				40F2B42D49E08D8F4B62175A7FEB275B /* asn1.h */,
+				04532BAFC91A718C4E24B4FA25390CFE /* asn1_mac.h */,
+				1901E6DFA8091DC45C166430B7E67399 /* asn1t.h */,
+				EB3AD2DADDABF11987D3319CE19122EF /* bio.h */,
+				F3D77095912402CD8EF79434B6FDC8A1 /* blowfish.h */,
+				2B84C06EB3CB0AE4116E38E71EDE8B6C /* bn.h */,
+				EE8EB0284983189C7466DFB10671EF1A /* buffer.h */,
+				3374B0AFFD3B1CBE8E8EFB7E16D566E4 /* camellia.h */,
+				6FA60F06A33BD8E47CF278906BB27BDD /* cast.h */,
+				A7C841614DF42B861034AA5312790408 /* cmac.h */,
+				6317A1C97E217F8AC961845A47717EC7 /* cms.h */,
+				75FD2267539129C3477105CFD4988985 /* comp.h */,
+				23255A587478CA6A9AA61BC21640C015 /* conf.h */,
+				E56334B4254E776EB7C13C605D5111F1 /* conf_api.h */,
+				A141434C526BB5DFFC375EDE5C980BCF /* crypto.h */,
+				CC5B86D4F063276333CD74E11B12D2D6 /* des.h */,
+				D663FEEE6E68464F3704FDD7922C12C9 /* des_old.h */,
+				C62AC45253BB1EE38C1A84BE51D79E11 /* dh.h */,
+				2D7AC4FDD01B5DC3CF5611026589CCDD /* dsa.h */,
+				6DA34823F6BF90AC434C6CFAE98D9C6B /* dso.h */,
+				2297FB8F2A7E8BF1AB37EBE4E9DB15AC /* dtls1.h */,
+				67A8CAD3B7AF80683A4BEBB663861DE7 /* e_os2.h */,
+				BE1F22A82AA4BF1A8307289228794170 /* ebcdic.h */,
+				4BBA74E0AA617BA0B6E00FFC417CBE51 /* ec.h */,
+				A9896E144EA0F7A94E752144AF854790 /* ecdh.h */,
+				BE2C682AE3AF5E158D6239A3B005240B /* ecdsa.h */,
+				45D81F316E9959EA9443B086C12D0DCD /* engine.h */,
+				3C9FE09440EB4387A52F5A374CFD189A /* err.h */,
+				13C7B0F95AC6272A8040591B8352CCA1 /* evp.h */,
+				5853A75B7A9B049D637ABCB83A4D3F64 /* hmac.h */,
+				8BA4216CF53D6F941671448AA1680621 /* idea.h */,
+				31F763EC726A60339E755A96D1800183 /* krb5_asn.h */,
+				8B3108440A3208B9A508BF54ECA24E8F /* kssl.h */,
+				EDD9155A057630764388BFA3EB51E9A4 /* lhash.h */,
+				266C352C9234278A7A8BF74D9E2F73B6 /* md4.h */,
+				CAE54AC31254CCC6A1685035F3068F60 /* md5.h */,
+				79871FC0F1BEB2854AC285CD8B8C3253 /* mdc2.h */,
+				BCA3C0C55FA23A1B754E4C5603E55920 /* modes.h */,
+				B4D3249DCAF912889C0A291C63FD678D /* obj_mac.h */,
+				4171ADD08377232F3465548409CD6D86 /* objects.h */,
+				F5F939C5352963A6F1B211BA762B8270 /* ocsp.h */,
+				C936E32F524B315C6F760DD9A5F4BAB4 /* opensslconf.h */,
+				85E8BE2888117192F8F7C43B4311F8E1 /* opensslv.h */,
+				FAA1FE5D4652BC3A2704B2A7102057CD /* ossl_typ.h */,
+				406EF38D7D935566212CDC43C0EA95BA /* pem.h */,
+				156CC8F16CD6612B4331AB9BFDCF4AC3 /* pem2.h */,
+				7161921E4657684C8F72A60F0B4049C3 /* pkcs12.h */,
+				A45D70158A43E0C86FE89E79D29E5843 /* pkcs7.h */,
+				CB2C28904EAC80770E3B6867DDE06FDE /* pqueue.h */,
+				78CFA1FBF55627E24F738DCCF8D6ED43 /* rand.h */,
+				743B51E6497AD82B4BE072515886950C /* rc2.h */,
+				70A994117590E5FF121AB87BE57F43F2 /* rc4.h */,
+				BEA4895DCB56A864678F6BBBADCC9FE5 /* ripemd.h */,
+				6B15C92FA6A50C942813B61D2604397A /* rsa.h */,
+				39F24082199159D639B3730ECFEAF08B /* safestack.h */,
+				985959903D23A42EFBB523B38D67B531 /* seed.h */,
+				481D481EF017C8595A790ADE359A4871 /* sha.h */,
+				E6823E47A0953759B305C0B0521F97F7 /* srp.h */,
+				A57921091F1403A888CA21618CD33D00 /* srtp.h */,
+				883E771479F672973CD495A460813C8C /* ssl.h */,
+				BE4577D59EA242CF5F2E74B636932B16 /* ssl2.h */,
+				46510AD4410FBEDA28F65162BFF5C81B /* ssl23.h */,
+				6FF7647F0914F1319D8FBB7B4C371502 /* ssl3.h */,
+				868A29E00B40EEDD68294E8B4016282D /* stack.h */,
+				F5781E598E38D1CF0A8D56E519FDBD3A /* symhacks.h */,
+				50199CA6D0308A7E34BB7E1B07BF75A8 /* tls1.h */,
+				32600613DF531F4B5612A8472493094F /* ts.h */,
+				C79F43826C4D59DA6AD79BCEB21B2579 /* txt_db.h */,
+				0E209E5952228A18A5613AC79298CD75 /* ui.h */,
+				D09AA1E2E8F40987F9251B7342900B00 /* ui_compat.h */,
+				0C935C5E2D9E6FB121BE2375F3066957 /* whrlpool.h */,
+				BDBA58DAAAA081779A0C647CDF053D3F /* x509.h */,
+				2FFBA67E274BC6AB5A3BFCF33C4F8FDC /* x509_vfy.h */,
+				16590DBD475479CC917FFA13A5D2A74E /* x509v3.h */,
 			);
-			name = Frameworks;
+			name = openssl;
+			path = openssl;
 			sourceTree = "<group>";
 		};
-		FBD2D672921284E66F309CA3462F84D6 /* Pods */ = {
+		FEB211B802811CF9396B7F6746ED02B7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2287B5EBEAA3C332F8DB9A1E61F5B097 /* FBSnapshotTestCase */,
+				234BB6513DDD284AF750B548A75947CD /* ALSPayMent.xcconfig */,
+				B57195AC21622B9F8535B68A960A0E49 /* ALSPayMent-dummy.m */,
+				7F827B6693023219C3375C1335FDD01E /* ALSPayMent-prefix.pch */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ALSPayMent";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0F1BBA8EB98FC8F8CF8D08F630A47522 /* Headers */ = {
+		6595BD5AF5BA02E9498DEBC7E63342D5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90EADDC057B2A12C12D4D2B5E7645AE5 /* Pods-ALSPayMent_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9DC6F5AC11E37A1EB45C6473C9E800B6 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */,
-				9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */,
-				BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */,
-				2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */,
-				BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */,
-				CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */,
-				051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */,
-				421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9DC81F27DF9210449A7F24A715C98B9C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A251D5976E9894D8D81BE691D7FF3C19 /* Pods-ALSPayMent_Tests-umbrella.h in Headers */,
+				5364736EF2FAF3A9E278933D23B9A365 /* aes.h in Headers */,
+				2F7604D771C4E79DA1A16486E5D9CD5B /* ALSInAppPurchase.h in Headers */,
+				71024AEE0070B6843F3B05FB99601549 /* ALSPayManager.h in Headers */,
+				87993F80685A8FD9F6123BB0B35D5497 /* ALSRMAppReceipt.h in Headers */,
+				D7D1B826296774336817A92D0AC81B67 /* ALSRMStore.h in Headers */,
+				43237D3F37BD6A39BF8EEFFBF35D7C9D /* ALSRMStoreAppReceiptVerifier.h in Headers */,
+				A1FE5C07A8335917511D2BB0844927A6 /* ALSRMStoreKeychainPersistence.h in Headers */,
+				3FF77576A1D971A548481348AA1EFF10 /* ALSRMStoreTransaction.h in Headers */,
+				C32FB428280E850201877A6B5E311ABD /* ALSRMStoreTransactionReceiptVerifier.h in Headers */,
+				2931525500DADEE2E7D7CA030592D1FC /* ALSRMStoreUserDefaultsPersistence.h in Headers */,
+				9C8BA128652B186738616F5C7E627E97 /* asn1.h in Headers */,
+				3609E69886A3A9F8C733F0D9303CF186 /* asn1_mac.h in Headers */,
+				C1F2F09C85983418ADDDDADC8FB15321 /* asn1t.h in Headers */,
+				8B6B8EC89240F39C5A210EBFC9A0C4D8 /* bio.h in Headers */,
+				93BEB0C464D192A53CFCB07DEF992567 /* blowfish.h in Headers */,
+				2E0F15E684F8E3796BF57BCBFCE1FC03 /* bn.h in Headers */,
+				22D39D94CB8CA4CC057224220BB728A8 /* buffer.h in Headers */,
+				D7BFF3BA1663CE8FED4369205D6B9D8A /* camellia.h in Headers */,
+				4A45DA192E2295086D88D0B6DD9EA2D9 /* cast.h in Headers */,
+				D246BE69AEB320894B48FE96E1111CA7 /* cmac.h in Headers */,
+				5B3B55403708F0F9283E4FA4850727E9 /* cms.h in Headers */,
+				F14CF47DC6F3650C12418D93BBE2A2E9 /* comp.h in Headers */,
+				76F8A5B455DC3D90E0C156D59B485E9F /* conf.h in Headers */,
+				CE2FAF8107899BFBD094BF3277F07A26 /* conf_api.h in Headers */,
+				363215E3A2A7ACA17FFBC7879EBCC4D2 /* crypto.h in Headers */,
+				52740E3F281EB84C261774A0AF91E3FA /* DelegateToBlock.h in Headers */,
+				2359F15EB51D25FF84BAE46D59D9F970 /* des.h in Headers */,
+				0DDD0C9D6A928227617F4F925B6E88F0 /* des_old.h in Headers */,
+				F28DE7E40E74998D608B1101FBDD96CA /* dh.h in Headers */,
+				67B49CE143154ED5C1EE341A31D3ECEC /* dsa.h in Headers */,
+				C1F4D645DA09A66000529A6D8C3907E6 /* dso.h in Headers */,
+				91DBA06889A3D919ED7267FCDC2567F1 /* dtls1.h in Headers */,
+				6C5BCBACA3D3FAB7B9C3EA65CDC8A4D6 /* e_os2.h in Headers */,
+				916298B654469B6564F6C12DEBC84BC4 /* ebcdic.h in Headers */,
+				3678E115B54EA667B2DAF3C46513E954 /* ec.h in Headers */,
+				93739C051B0E3866A601D051CDCDD282 /* ecdh.h in Headers */,
+				21E2163F8FDD009E47D6D507697BD184 /* ecdsa.h in Headers */,
+				E392BD9D0CFC501EA46BA993B0A32259 /* engine.h in Headers */,
+				65531BD6450DDE90AD2093CF2A608A55 /* err.h in Headers */,
+				BBF45E1800A584256803CB229854C513 /* evp.h in Headers */,
+				E8E674D8EC58DB8C9BE0754AEDCAECF2 /* hmac.h in Headers */,
+				E503D0A263C53F694A79DC6A39AA5446 /* idea.h in Headers */,
+				F12EAA04AD0F8F660D1AE8D98D317D12 /* krb5_asn.h in Headers */,
+				B138A7DD294F2786910D9D93D231EF5C /* kssl.h in Headers */,
+				941297FB64BD4AE80CA94722635B7B48 /* lhash.h in Headers */,
+				C7475D81E44F26942B250102ACA8A1A9 /* md4.h in Headers */,
+				B39C0CB48624F6A904BBFBC47B25C36D /* md5.h in Headers */,
+				32134805BB4F7A43B147C76122E085ED /* mdc2.h in Headers */,
+				4F59CFB984A9F98BD3A06882AA12C268 /* modes.h in Headers */,
+				B365C2911D65F8B66403DD4B61FD61C2 /* obj_mac.h in Headers */,
+				6939D5A3BF67096ABE2ED64D26C20F49 /* objects.h in Headers */,
+				3F1F797A80186B8899760EA92C6B0A43 /* ocsp.h in Headers */,
+				7BFE0DE297E9DB0A56CA441D0DE89561 /* opensslconf.h in Headers */,
+				EDACEC6E360BEA0E2AE8B076AC9FCF08 /* opensslv.h in Headers */,
+				711EF06C18692710A77471F972A89852 /* ossl_typ.h in Headers */,
+				D6678FF53F24546A2A1E9FF5A66BD30A /* pem.h in Headers */,
+				468E6C8FF288C755C5A6488194D881EF /* pem2.h in Headers */,
+				CE6D73825F6387012ACECF70FB738C44 /* pkcs12.h in Headers */,
+				C8B29C032A3CF90B247E6E723D26A2F1 /* pkcs7.h in Headers */,
+				A79582E32CC79335A5F55FB348C59B5B /* pqueue.h in Headers */,
+				814DB8079112B81DE4AD83AA3A0A2D49 /* rand.h in Headers */,
+				C873D67E99CAE6B80ACBBFDF2BFB2A2D /* rc2.h in Headers */,
+				43B4EB9AA9EBEA1EE6C62D50EA6318A3 /* rc4.h in Headers */,
+				DBFCCF2B2B58E9B151DE8BEDFE96A75E /* ripemd.h in Headers */,
+				B4D3B330D922587ED6E23623531F5025 /* rsa.h in Headers */,
+				A9EE39D8BE3BC9FC1F8CDBD5385E13D8 /* safestack.h in Headers */,
+				455128BB6971EA986DC2BFE568BAA614 /* seed.h in Headers */,
+				188AE3FFBC66BD81CFDDE8DD19593C8A /* sha.h in Headers */,
+				D72DC74B2358E32DBA9B79851B225936 /* srp.h in Headers */,
+				A2B866D6028DCBDD16155DE1F9881731 /* srtp.h in Headers */,
+				CDFABB5369203F0577159432DDFEF196 /* ssl.h in Headers */,
+				0B755EDD6CB33FF00B18120A1A84C78F /* ssl2.h in Headers */,
+				1DE1C9CE933B81D14C269AC9F7FEBFF8 /* ssl23.h in Headers */,
+				F05C86380E03F5E0475DDB69D964F2A0 /* ssl3.h in Headers */,
+				8976A34E53930DEAEA5C2813F7D07002 /* stack.h in Headers */,
+				9C2BB58589C0B7E8E1CE3A0F86DF3901 /* symhacks.h in Headers */,
+				AF537B4E9108D12F7A94BE3015DD04F0 /* tls1.h in Headers */,
+				32CE4212D10AD57E56C45FD0F35CD3C7 /* ts.h in Headers */,
+				D485BDEA360658204259540BBA510604 /* txt_db.h in Headers */,
+				2292D5BEC69BED70DE10B682E4297BE3 /* ui.h in Headers */,
+				D29A20BC75223CA7EE8F75CF8FC6621C /* ui_compat.h in Headers */,
+				B8BAC6641FA838AE08DB465374513BA1 /* WechatAuthSDK.h in Headers */,
+				23D7DE5BC87112DAA07DAD3414A815AD /* whrlpool.h in Headers */,
+				F42E376DB878B04B4A91B4BCBAA7D3AF /* WXApi.h in Headers */,
+				49F38712D24ED936F7DD31BE6AFFC62E /* WXApiObject.h in Headers */,
+				80354C26E67503B7CB3DEBDBCFB0F006 /* x509.h in Headers */,
+				AE69B69C89A3295D928228553E3C07AF /* x509_vfy.h in Headers */,
+				763E3870E248A4065EC4D52BEFCE3943 /* x509v3.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1D66E861E3B4D77FFAE3DB8C65542291 /* Pods-ALSPayMent_Example */ = {
+		341D1599714050506EF90FB634B5B276 /* Pods-ALSPayMent_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 845510C61A40879687CCDC0C274F15D8 /* Build configuration list for PBXNativeTarget "Pods-ALSPayMent_Example" */;
+			buildConfigurationList = 49DBE69B8A454A48C20CD0FE4B630B19 /* Build configuration list for PBXNativeTarget "Pods-ALSPayMent_Example" */;
 			buildPhases = (
-				BF85B5DAA0528E34DD42E37A32B3DB2B /* Sources */,
-				9499F8860C455B6700601395944F6A2D /* Frameworks */,
-				0F1BBA8EB98FC8F8CF8D08F630A47522 /* Headers */,
+				2CAE291793E4952037FB8E98C40D0099 /* Sources */,
+				7D3D4C49408EC4DE0546E75701A9DD93 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				05110E03A246D005B7F29F118530A907 /* PBXTargetDependency */,
 			);
 			name = "Pods-ALSPayMent_Example";
 			productName = "Pods-ALSPayMent_Example";
-			productReference = 7BAE2C7CD6152DD85A2DDC2FCC380A23 /* Pods_ALSPayMent_Example.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = C3FB2A8AF6056219BDC83CAC74515950 /* libPods-ALSPayMent_Example.a */;
+			productType = "com.apple.product-type.library.static";
 		};
-		34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */ = {
+		3A558C2B857B064C775C6DE1FB28128D /* Pods-ALSPayMent_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F28097D43AF5CD8DA838ABD52A053790 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildConfigurationList = 5639E310836AAB12061E1B5AC006EED5 /* Build configuration list for PBXNativeTarget "Pods-ALSPayMent_Tests" */;
 			buildPhases = (
-				E2E80CCD063D04B57A1A5E140726E8A4 /* Sources */,
-				1D421A30A1BDB7E1C4216F64D0C939B1 /* Frameworks */,
-				9DC6F5AC11E37A1EB45C6473C9E800B6 /* Headers */,
+				A136D94DBEE234C53AD13362A8F94188 /* Sources */,
+				CA8B44A645EA9CC72531E414C80B3833 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = FBSnapshotTestCase;
-			productName = FBSnapshotTestCase;
-			productReference = 0D958484EA8AA38AC8E3F7F706B747DD /* FBSnapshotTestCase.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		510EAFFE4078C71BBB725C9D777115AB /* Pods-ALSPayMent_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4DC4AA5966AD4D281C3573D60A4DCB57 /* Build configuration list for PBXNativeTarget "Pods-ALSPayMent_Tests" */;
-			buildPhases = (
-				1EAF4D81C21BEFD9D5858C7059D9CB44 /* Sources */,
-				83B663FD24CFE87BB9266F9CCECED84D /* Frameworks */,
-				9DC81F27DF9210449A7F24A715C98B9C /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				43BAF2ED094C37839BF28E325AB087D9 /* PBXTargetDependency */,
 			);
 			name = "Pods-ALSPayMent_Tests";
 			productName = "Pods-ALSPayMent_Tests";
-			productReference = 9078FDAA464CDDB02A422E3666BD3C69 /* Pods_ALSPayMent_Tests.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = AD9471DF6BAAE0B6F69538C6D9A38D3D /* libPods-ALSPayMent_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3CD83EFBFB128E019DA9B3CE277DE18F /* ALSPayMent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDE6A1DE17E232DD98BE5B8D33621523 /* Build configuration list for PBXNativeTarget "ALSPayMent" */;
+			buildPhases = (
+				AD5F04E1253ADD5A2D6763E02AB369B6 /* Sources */,
+				1051AFAA5069B7C8338364FCC3A67973 /* Frameworks */,
+				6595BD5AF5BA02E9498DEBC7E63342D5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ALSPayMent;
+			productName = ALSPayMent;
+			productReference = DD719A7E50F2F8C8BC9AFA77CCD5C253 /* libALSPayMent.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -409,62 +812,109 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 99F26E81E7A7CC85E32A3A073F8392C6 /* Products */;
+			productRefGroup = 1737ADD76136B44CF5FE77B07D80FECC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */,
-				1D66E861E3B4D77FFAE3DB8C65542291 /* Pods-ALSPayMent_Example */,
-				510EAFFE4078C71BBB725C9D777115AB /* Pods-ALSPayMent_Tests */,
+				3CD83EFBFB128E019DA9B3CE277DE18F /* ALSPayMent */,
+				341D1599714050506EF90FB634B5B276 /* Pods-ALSPayMent_Example */,
+				3A558C2B857B064C775C6DE1FB28128D /* Pods-ALSPayMent_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1EAF4D81C21BEFD9D5858C7059D9CB44 /* Sources */ = {
+		2CAE291793E4952037FB8E98C40D0099 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60A70A01A5E51BE109E71E191FB102ED /* Pods-ALSPayMent_Tests-dummy.m in Sources */,
+				E065D84E7638E0549BC3E9248B110F5B /* Pods-ALSPayMent_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BF85B5DAA0528E34DD42E37A32B3DB2B /* Sources */ = {
+		A136D94DBEE234C53AD13362A8F94188 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7D2E8769A5BDD0F35CD0D4E0110E048 /* Pods-ALSPayMent_Example-dummy.m in Sources */,
+				2EB5F22E864BBA45D9A5E7739D808776 /* Pods-ALSPayMent_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E2E80CCD063D04B57A1A5E140726E8A4 /* Sources */ = {
+		AD5F04E1253ADD5A2D6763E02AB369B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */,
-				BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */,
-				DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */,
-				A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */,
-				1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */,
-				094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */,
-				69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */,
-				35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */,
-				756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */,
+				9394517B42EF7D7A351D03A6AEC9E67D /* ALSPayManager.m in Sources */,
+				BA99602023E08F12A9E575737432FA4F /* ALSPayMent-dummy.m in Sources */,
+				F16D5F0D70DB4263C5E36D930B677990 /* ALSRMAppReceipt.m in Sources */,
+				D08B7A5508A8923A3D29FD657C2EF612 /* ALSRMStore.m in Sources */,
+				DBA12B8248DA81C1A74B90AEE617B90E /* ALSRMStoreAppReceiptVerifier.m in Sources */,
+				90D35B10FCA67BE169C490322164AB4F /* ALSRMStoreKeychainPersistence.m in Sources */,
+				DD314E4E85DDC210A3E512193A1BE4B1 /* ALSRMStoreTransaction.m in Sources */,
+				C7F25DF023C4ACC56BB822DB19C64E5A /* ALSRMStoreTransactionReceiptVerifier.m in Sources */,
+				036C97F065B3BF5AE219FB82B8434BF5 /* ALSRMStoreUserDefaultsPersistence.m in Sources */,
+				C645A9EF6965F16CC7789AD4171B78D8 /* DelegateToBlock.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		43BAF2ED094C37839BF28E325AB087D9 /* PBXTargetDependency */ = {
+		05110E03A246D005B7F29F118530A907 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = FBSnapshotTestCase;
-			target = 34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */;
-			targetProxy = 2B66133F46FEB7D65899E2C17477A0A6 /* PBXContainerItemProxy */;
+			name = ALSPayMent;
+			target = 3CD83EFBFB128E019DA9B3CE277DE18F /* ALSPayMent */;
+			targetProxy = 34E3D8D35C4BE5531BD47D1D5547E0A8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		25BDEE5FBA3238371C04F89C20602EBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C584FC4E27CEE9E9256CBF52F7222842 /* Pods-ALSPayMent_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2BBFAEC3AB1F7A870E0CE4A961FE105C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC2D0F316AD2C0DC1F390F63DBCB99EC /* Pods-ALSPayMent_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
 		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -509,114 +959,74 @@
 			};
 			name = Release;
 		};
-		5B31B54C34CC972860A659C4AF7E6F32 /* Debug */ = {
+		6DEB202B44805BC0AA565469902F3B11 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EEF22D710607C14DA5712CF7B814D270 /* Pods-ALSPayMent_Example.debug.xcconfig */;
+			baseConfigurationReference = F882FE768EA03ECF3B0C4C64582747D2 /* Pods-ALSPayMent_Tests.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ALSPayMent_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ALSPayMent_Example/Pods-ALSPayMent_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ALSPayMent_Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		5E6C7B44FFD1074C096797211F5C1FFD /* Release */ = {
+		77B49DB1E2F8EAA325F69BD667292B53 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DAE1B5CF1EAB16F25FE1D8023816FE37 /* Pods-ALSPayMent_Tests.release.xcconfig */;
+			baseConfigurationReference = C7C1D545A8A558F14D66C9728B747008 /* Pods-ALSPayMent_Example.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ALSPayMent_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ALSPayMent_Tests/Pods-ALSPayMent_Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ALSPayMent_Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		BD5CB3691FE92843589F6AF6BCC8DFD5 /* Debug */ = {
+		B75AA80F6E22366C45F708034FB636EB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DADAF30F2D84FDAAD2ADD2D50C1F40DF /* FBSnapshotTestCase.xcconfig */;
+			baseConfigurationReference = 234BB6513DDD284AF750B548A75947CD /* ALSPayMent.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				GCC_PREFIX_HEADER = "Target Support Files/ALSPayMent/ALSPayMent-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = FBSnapshotTestCase;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		C104F7F091290C3D1E248192F07FE689 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -666,114 +1076,28 @@
 			};
 			name = Debug;
 		};
-		D922C5D094F21537C028FA6A8254FA8C /* Debug */ = {
+		F52008DF4E4B17AC6C802812E31843B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95E46F32BDAF6CEE84B65F646CA93F61 /* Pods-ALSPayMent_Tests.debug.xcconfig */;
+			baseConfigurationReference = 234BB6513DDD284AF750B548A75947CD /* ALSPayMent.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ALSPayMent_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				GCC_PREFIX_HEADER = "Target Support Files/ALSPayMent/ALSPayMent-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ALSPayMent_Tests/Pods-ALSPayMent_Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ALSPayMent_Tests;
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		F3EE6199D81F2F026827456AD39B9C5F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D4D64E9C6A544477707448736A60B1AF /* Pods-ALSPayMent_Example.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ALSPayMent_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ALSPayMent_Example/Pods-ALSPayMent_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ALSPayMent_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F6DBA53A4511720174B84279A5CEB561 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DADAF30F2D84FDAAD2ADD2D50C1F40DF /* FBSnapshotTestCase.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -787,29 +1111,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4DC4AA5966AD4D281C3573D60A4DCB57 /* Build configuration list for PBXNativeTarget "Pods-ALSPayMent_Tests" */ = {
+		49DBE69B8A454A48C20CD0FE4B630B19 /* Build configuration list for PBXNativeTarget "Pods-ALSPayMent_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D922C5D094F21537C028FA6A8254FA8C /* Debug */,
-				5E6C7B44FFD1074C096797211F5C1FFD /* Release */,
+				2BBFAEC3AB1F7A870E0CE4A961FE105C /* Debug */,
+				77B49DB1E2F8EAA325F69BD667292B53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		845510C61A40879687CCDC0C274F15D8 /* Build configuration list for PBXNativeTarget "Pods-ALSPayMent_Example" */ = {
+		5639E310836AAB12061E1B5AC006EED5 /* Build configuration list for PBXNativeTarget "Pods-ALSPayMent_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5B31B54C34CC972860A659C4AF7E6F32 /* Debug */,
-				F3EE6199D81F2F026827456AD39B9C5F /* Release */,
+				6DEB202B44805BC0AA565469902F3B11 /* Debug */,
+				25BDEE5FBA3238371C04F89C20602EBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F28097D43AF5CD8DA838ABD52A053790 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+		FDE6A1DE17E232DD98BE5B8D33621523 /* Build configuration list for PBXNativeTarget "ALSPayMent" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BD5CB3691FE92843589F6AF6BCC8DFD5 /* Debug */,
-				F6DBA53A4511720174B84279A5CEB561 /* Release */,
+				F52008DF4E4B17AC6C802812E31843B3 /* Debug */,
+				B75AA80F6E22366C45F708034FB636EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
