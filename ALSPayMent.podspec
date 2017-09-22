@@ -1,0 +1,48 @@
+#
+# Be sure to run `pod lib lint ALSPayMent.podspec' to ensure this is a
+# valid spec before submitting.
+#
+# Any lines starting with a # are optional, but their use is encouraged
+# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
+#
+
+Pod::Spec.new do |s|
+  s.name             = 'ALSPayMent'
+  s.version          = '0.1.0'
+  s.summary          = 'A short description of ALSPayMent.'
+
+# This description is used to generate tags and improve search results.
+#   * Think: What does it do? Why did you write it? What is the focus?
+#   * Try to keep it short, snappy and to the point.
+#   * Write the description between the DESC delimiters below.
+#   * Finally, don't worry about the indent, CocoaPods strips it!
+
+  s.description      = <<-DESC
+TODO: Add long description of the pod here.
+                       DESC
+
+  s.homepage         = 'https://github.com/yangzmpang/ALSPayMent'
+  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.author           = { 'yangzmpang' => 'zimin.yzm@alibaba-inc.com' }
+  s.source           = { :git => 'https://github.com/yangzmpang/ALSPayMent.git', :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+
+  s.ios.deployment_target = '8.0'
+
+  s.default_subspec = 'Core'
+
+  s.subspec 'Core' do |core|
+  core.source_files = 'ALSPayMent/Classes/**/*',"ALSPayMent/lib/AlipaySDK.framework/Headers/*.h"
+  core.public_header_files = "ALSPayMent/lib/AlipaySDK.framework/Headers/*.h",'ALSPayMent/Classes/**/*.h'
+  core.resources = "ALSPayMent/lib/*.bundle","ALSPayMent/lib/ALSAppleIncRootCertificate.cer"
+  core.frameworks = "CoreMotion","CoreGraphics", "CoreTelephony","QuartzCore","SystemConfiguration","Security","Foundation","UIKit"
+  core.ios.library = 'z', 'sqlite3.0','c++', 'stdc++','ssl', 'crypto'
+  core.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC',
+  'ENABLE_BITCODE' => 'NO',
+  'HEADER_SEARCH_PATHS' => '/Users/yangziminyangzimin/Desktop/test/ALSPayMent/ALSPayMent/ALSPayMent/Classes/openssl/include/**' }
+  core.vendored_frameworks = "ALSPayMent/lib/AlipaySDK.framework"
+  core.vendored_libraries = "ALSPayMent/lib/*.a"
+  end
+
+end

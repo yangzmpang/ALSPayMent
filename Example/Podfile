@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ALSPayMent_Example' do
+  pod 'ALSPayMent', :path => '../'
+
+  target 'ALSPayMent_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
