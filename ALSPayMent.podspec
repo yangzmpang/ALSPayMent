@@ -46,6 +46,7 @@ TODO: Add long description of the pod here.
   end
 
   s.dependency 'AlipaySDKIniOS', '~> 15.2.0'
+  s.dependency 'PodAsset'
   s.pod_target_xcconfig = {
     'FRAMEWORK_SEARCH_PATHS' => '$(inherited) $(PODS_ROOT)/AlipaySDKIniOS',
     'OTHER_LDFLAGS'          => '$(inherited) -undefined dynamic_lookup'
