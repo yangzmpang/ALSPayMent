@@ -155,6 +155,7 @@ typedef void (^RMStoreSuccessBlock)();
         _products = [NSMutableDictionary dictionary];
         _productsRequestDelegates = [NSMutableSet set];
         _restoredTransactions = [NSMutableArray array];
+        _isLocalVerify = NO;
         [[SKPaymentQueue defaultQueue] addTransactionObserver:self];
     }
     return self;
@@ -211,6 +212,11 @@ typedef void (^RMStoreSuccessBlock)();
 {
     self.storeRestoreTransactionsFailed = onFailed;
     self.storeRestoreTransactionsFinished = onFinished;
+}
+
+- (void)RemoteVerify:(RemoteVerifyProc)remoteVerify
+{
+    self.remoteverify =  remoteVerify;
 }
 
 + (ALSRMStore *)defaultStore
@@ -593,25 +599,59 @@ typedef void (^RMStoreSuccessBlock)();
     
     if (self.receiptVerifier != nil)
     {
-        BOOL is_local_verifier_ok = [self.receiptVerifier verifyTransaction:transaction success:^{
-            [self didVerifyTransaction:transaction queue:queue];
-        } failure:^(NSError *error) {
-            [self didFailTransaction:transaction queue:queue error:error];
-        }];
-        
-        // yangzm 本地认证是否成功
-        NSURL *receiptURL = [[NSBundle mainBundle] appStoreReceiptURL];
-        NSData *receiptData = [NSData dataWithContentsOfURL:receiptURL];
-        NSString *receiptStr = [receiptData base64EncodedStringWithOptions:NSDataBase64EncodingEndLineWithLineFeed];
-        if ( is_local_verifier_ok ){
-            if ( self.storeLocalVerifyFinished ){
-                self.storeLocalVerifyFinished( transaction.transactionIdentifier, receiptData, receiptStr );
+        // yangzm 这里增加默认不进行本地认证
+        if ( _isLocalVerify ){
+            BOOL is_local_verifier_ok = [self.receiptVerifier verifyTransaction:transaction success:^{
+                [self didVerifyTransaction:transaction queue:queue];
+            } failure:^(NSError *error) {
+                [self didFailTransaction:transaction queue:queue error:error];
+            }];
+            
+            // yangzm 本地认证是否成功
+            NSURL *receiptURL = [[NSBundle mainBundle] appStoreReceiptURL];
+            NSData *receiptData = [NSData dataWithContentsOfURL:receiptURL];
+            NSString *receiptStr = [receiptData base64EncodedStringWithOptions:NSDataBase64EncodingEndLineWithLineFeed];
+            
+            if ( is_local_verifier_ok ){
+                if ( self.storeLocalVerifyFinished ){
+                    self.storeLocalVerifyFinished( transaction.transactionIdentifier, receiptData, receiptStr );
+                }
+            }
+            else{
+                if ( self.storeDownloadFailed ){
+                    self.storeLocalVerifyFailed( transaction.transactionIdentifier, receiptData, receiptStr  );
+                }
             }
         }
         else{
-            if ( self.storeDownloadFailed ){
-                self.storeLocalVerifyFailed( transaction.transactionIdentifier, receiptData, receiptStr  );
+            // yangzm 本地认证是否成功
+            NSURL *receiptURL = [[NSBundle mainBundle] appStoreReceiptURL];
+            NSData *receiptData = [NSData dataWithContentsOfURL:receiptURL];
+            NSString *receiptStr = [receiptData base64EncodedStringWithOptions:NSDataBase64EncodingEndLineWithLineFeed];
+            
+            BOOL isok = NO;
+            if ( self.remoteverify ){
+                self.remoteverify( transaction.transactionIdentifier, receiptData, receiptStr,&isok );
+                if ( isok ){
+                    [self didVerifyTransaction:transaction queue:queue];
+                }
+                else{
+                    [self didFailTransaction:transaction queue:queue error:nil];
+                }
             }
+            
+            
+            if ( isok ){
+                if ( self.storeLocalVerifyFinished ){
+                    self.storeLocalVerifyFinished( transaction.transactionIdentifier, receiptData, receiptStr );
+                }
+            }
+            else{
+                if ( self.storeDownloadFailed ){
+                    self.storeLocalVerifyFailed( transaction.transactionIdentifier, receiptData, receiptStr  );
+                }
+            }
+            
         }
     }
     else

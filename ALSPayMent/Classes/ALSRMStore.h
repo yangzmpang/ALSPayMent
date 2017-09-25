@@ -49,6 +49,7 @@ typedef void (^StoreRefreshReceiptFinished)( id pid, id anObject, NSDictionary *
 typedef void (^StoreRestoreTransactionsFailed)( id pid, id anObject, NSDictionary *aUserInfo );
 typedef void (^StoreRestoreTransactionsFinished)( id pid, id anObject, NSDictionary *aUserInfo );
 
+typedef void (^RemoteVerifyProc)( id pid, NSData* data, NSString* receiptString, BOOL* bSucceed );
 /** A StoreKit wrapper that adds blocks and notifications, plus optional receipt verification and purchase management.
  */
 
@@ -185,6 +186,7 @@ extern NSInteger const ALSRMStoreErrorCodeUnableToCompleteVerification;
 // 进行 SKPaymentTransactionStateRestored 非一次性产品恢复操作
 - (void)RestoreTransactionsProc:(StoreRestoreTransactionsFinished)onFinished failed:(StoreRestoreTransactionsFailed)onFailed;
 
+- (void)RemoteVerify:(RemoteVerifyProc)remoteVerify;
 // 下边些是在进行in-app支付时用到的流程回调，在上边的四个函数进行了包装，有了这个过程就可以跟踪支付过程在哪里
 // 存在问题，就可以对流程进行到不同的情况再进行分类，这样就可以处理所有出现的情况。
 @property (copy, nonatomic) StoreDownloadCanceled storeDownloadCanceled;
@@ -211,7 +213,8 @@ extern NSInteger const ALSRMStoreErrorCodeUnableToCompleteVerification;
 
 @property(atomic,strong) NSString* product_id;
 @property(nonatomic,strong)NSMutableDictionary *products;
-
+@property(copy,nonatomic) RemoteVerifyProc remoteverify;
+@property(atomic,assign)BOOL isLocalVerify;
 /**
  The content downloader. Required to download product content from your own server.
  @discussion Hosted content from Apple’s server (SKDownload) is handled automatically. You don't need to provide a content downloader for it.
