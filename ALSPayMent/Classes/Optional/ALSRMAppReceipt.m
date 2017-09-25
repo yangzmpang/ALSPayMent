@@ -24,6 +24,7 @@
 #import <openssl/objects.h>
 #import <openssl/sha.h>
 #import <openssl/x509.h>
+#import "PodAsset.h"
 
 // From https://developer.apple.com/library/ios/releasenotes/General/ValidateAppStoreReceipt/Chapters/ReceiptFields.html#//apple_ref/doc/uid/TP40010573-CH106-SW1
 static NSInteger const RMAppReceiptASN1TypeBundleIdentifier = 2;
@@ -243,7 +244,10 @@ static NSURL *_appleRootCertificateURL = nil;
     if (!p7) return nil;
     
     NSData *data;
-    NSURL *certificateURL = _appleRootCertificateURL ? : [[NSBundle mainBundle] URLForResource:@"ALSAppleIncRootCertificate" withExtension:@"cer"];
+    NSBundle* bundle = [PodAsset bundleForPod:@"ALSPayMent"];
+    NSURL *certificateURL = _appleRootCertificateURL ? : [bundle URLForResource:@"ALSAppleIncRootCertificate" withExtension:@"cer"];
+    
+    //NSURL *certificateURL = _appleRootCertificateURL ? : [[NSBundle mainBundle] URLForResource:@"ALSAppleIncRootCertificate" withExtension:@"cer"];
     NSData *certificateData = [NSData dataWithContentsOfURL:certificateURL];
     if (!certificateData || [self verifyPCKS7:p7 withCertificateData:certificateData])
     {
