@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ALSPayMent'
-  s.version          = '0.1.8'
+  s.version          = '0.1.'
   s.summary          = 'A short description of ALSPayMent.'
 
 # This description is used to generate tags and improve search results.
@@ -38,7 +38,7 @@ TODO: Add long description of the pod here.
  
   core.resources = "ALSPayMent/lib/*.bundle","ALSPayMent/lib/ALSAppleIncRootCertificate.cer"
   core.frameworks = "CoreMotion","CoreGraphics", "CoreTelephony","QuartzCore","SystemConfiguration","Security","Foundation","UIKit"
-  core.ios.library = 'stdc++'
+  core.ios.library = 'z', 'sqlite3.0','c++', 'stdc++'
   core.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC',
   'ENABLE_BITCODE' => 'NO',
   'HEADER_SEARCH_PATHS' => '/Users/yangziminyangzimin/Desktop/test/ALSPayMent/ALSPayMent/ALSPayMent/Classes/openssl/include/**' }
