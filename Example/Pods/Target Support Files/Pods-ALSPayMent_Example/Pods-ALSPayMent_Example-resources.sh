@@ -80,14 +80,10 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "../../ALSPayMent/lib/AlipaySDK.bundle"
-  install_resource "../../ALSPayMent/lib/ALSAppleIncRootCertificate.cer"
-  install_resource "AlipaySDKIniOS/AlipaySDK.bundle"
+  install_resource "ALSAlipay/ALSAlipay/Assets/AlipaySDK.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "../../ALSPayMent/lib/AlipaySDK.bundle"
-  install_resource "../../ALSPayMent/lib/ALSAppleIncRootCertificate.cer"
-  install_resource "AlipaySDKIniOS/AlipaySDK.bundle"
+  install_resource "ALSAlipay/ALSAlipay/Assets/AlipaySDK.bundle"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

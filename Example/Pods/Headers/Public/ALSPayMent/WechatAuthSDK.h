@@ -1,1 +1,0 @@
-../../../../../ALSPayMent/Classes/WechatAuthSDK.h

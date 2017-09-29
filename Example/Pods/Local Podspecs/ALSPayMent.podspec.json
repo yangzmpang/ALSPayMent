@@ -1,6 +1,6 @@
 {
   "name": "ALSPayMent",
-  "version": "0.1.0",
+  "version": "0.1.7",
   "summary": "A short description of ALSPayMent.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/yangzmpang/ALSPayMent",
@@ -13,19 +13,22 @@
   },
   "source": {
     "git": "https://github.com/yangzmpang/ALSPayMent.git",
-    "tag": "0.1.0"
+    "tag": "0.1.7"
   },
   "platforms": {
     "ios": "8.0"
   },
   "default_subspecs": "Core",
   "dependencies": {
-    "AlipaySDKIniOS": [
-      "~> 15.2.0"
+    "ALSAlipay": [
+
+    ],
+    "PodAsset": [
+
     ]
   },
   "pod_target_xcconfig": {
-    "FRAMEWORK_SEARCH_PATHS": "$(inherited) $(PODS_ROOT)/AlipaySDKIniOS",
+    "FRAMEWORK_SEARCH_PATHS": "$(inherited) $(PODS_ROOT)/**",
     "OTHER_LDFLAGS": "$(inherited) -undefined dynamic_lookup"
   },
   "subspecs": [
@@ -48,14 +51,7 @@
         "UIKit"
       ],
       "ios": {
-        "libraries": [
-          "z",
-          "sqlite3.0",
-          "c++",
-          "stdc++",
-          "ssl",
-          "crypto"
-        ]
+        "libraries": "stdc++"
       },
       "xcconfig": {
         "OTHER_LDFLAGS": "-ObjC",

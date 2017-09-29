@@ -21,9 +21,9 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		7EA6FD4A8AB9270D53962552 /* libPods-ALSPayMent_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 447A40E7AEF604F61ED9243D /* libPods-ALSPayMent_Example.a */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		F22AA1636BF92C20A5036476 /* libPods-ALSPayMent_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FF271A35A3FA7E82DD4F159 /* libPods-ALSPayMent_Tests.a */; };
+		9B8B16B904ED1C0596B10E0E /* Pods_ALSPayMent_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C84B1DFD4EA92AD69905DD3E /* Pods_ALSPayMent_Tests.framework */; };
+		E7BA058A194FD433296F4398 /* Pods_ALSPayMent_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3191531A32D7C5A9FEFE7048 /* Pods_ALSPayMent_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0FF271A35A3FA7E82DD4F159 /* libPods-ALSPayMent_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ALSPayMent_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		111EC080A3E2AEF7430E96BA /* Pods-ALSPayMent_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALSPayMent_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ALSPayMent_Example/Pods-ALSPayMent_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1BFD5B1CD5A0B1D8F83346FD /* Pods-ALSPayMent_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALSPayMent_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ALSPayMent_Tests/Pods-ALSPayMent_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3191531A32D7C5A9FEFE7048 /* Pods_ALSPayMent_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ALSPayMent_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		339ACC93909652DCDE72A48A /* Pods-ALSPayMent_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALSPayMent_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ALSPayMent_Tests/Pods-ALSPayMent_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		447A40E7AEF604F61ED9243D /* libPods-ALSPayMent_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ALSPayMent_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* ALSPayMent_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ALSPayMent_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,6 +64,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		93CCCAD7FD05EBE0ECF53FBB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C84B1DFD4EA92AD69905DD3E /* Pods_ALSPayMent_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ALSPayMent_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED83D43896B62A2841608655 /* Pods-ALSPayMent_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALSPayMent_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ALSPayMent_Example/Pods-ALSPayMent_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EF6D80BE795F13CC3AB22F47 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				7EA6FD4A8AB9270D53962552 /* libPods-ALSPayMent_Example.a in Frameworks */,
+				E7BA058A194FD433296F4398 /* Pods_ALSPayMent_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				F22AA1636BF92C20A5036476 /* libPods-ALSPayMent_Tests.a in Frameworks */,
+				9B8B16B904ED1C0596B10E0E /* Pods_ALSPayMent_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,8 +134,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				447A40E7AEF604F61ED9243D /* libPods-ALSPayMent_Example.a */,
-				0FF271A35A3FA7E82DD4F159 /* libPods-ALSPayMent_Tests.a */,
+				3191531A32D7C5A9FEFE7048 /* Pods_ALSPayMent_Example.framework */,
+				C84B1DFD4EA92AD69905DD3E /* Pods_ALSPayMent_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

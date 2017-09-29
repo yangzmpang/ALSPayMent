@@ -1,10 +1,13 @@
 PODS:
-  - AlipaySDKIniOS (15.2.1)
-  - ALSPayMent (0.1.0):
-    - AlipaySDKIniOS (~> 15.2.0)
-    - ALSPayMent/Core (= 0.1.0)
-  - ALSPayMent/Core (0.1.0):
-    - AlipaySDKIniOS (~> 15.2.0)
+  - ALSAlipay (0.0.2)
+  - ALSPayMent (0.1.7):
+    - ALSAlipay
+    - ALSPayMent/Core (= 0.1.7)
+    - PodAsset
+  - ALSPayMent/Core (0.1.7):
+    - ALSAlipay
+    - PodAsset
+  - PodAsset (0.22.0)
 
 DEPENDENCIES:
   - ALSPayMent (from `../`)
@@ -14,9 +17,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AlipaySDKIniOS: ad64922a36f2cba4d941b99b6b5286704a103d9b
-  ALSPayMent: bb185a108f2a0fd3f4ea6caded2128afb104ab6e
+  ALSAlipay: 7d7622bac953d588497e9aea1f2660f567510a49
+  ALSPayMent: 8640f9f117f456192c740e3146f3b881b3837872
+  PodAsset: d9d35b6a86ceaeaead63692a1bce27b4aea243b3
 
-PODFILE CHECKSUM: 66ba1e4580572c63508d78f491f32d661053f87e
+PODFILE CHECKSUM: 0990a53f579c1c15ef2f21d738d3c5206a201d4a
 
 COCOAPODS: 1.2.1
