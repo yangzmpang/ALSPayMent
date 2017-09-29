@@ -1,10 +1,10 @@
 PODS:
   - ALSAlipay (0.0.2)
-  - ALSPayMent (0.1.7):
+  - ALSPayMent (0.1.9):
     - ALSAlipay
-    - ALSPayMent/Core (= 0.1.7)
+    - ALSPayMent/Core (= 0.1.9)
     - PodAsset
-  - ALSPayMent/Core (0.1.7):
+  - ALSPayMent/Core (0.1.9):
     - ALSAlipay
     - PodAsset
   - PodAsset (0.22.0)
@@ -18,7 +18,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   ALSAlipay: 7d7622bac953d588497e9aea1f2660f567510a49
-  ALSPayMent: 8640f9f117f456192c740e3146f3b881b3837872
+  ALSPayMent: c57aa8929364a11cc4c721706ab27db3f9d697a6
   PodAsset: d9d35b6a86ceaeaead63692a1bce27b4aea243b3
 
 PODFILE CHECKSUM: 0990a53f579c1c15ef2f21d738d3c5206a201d4a

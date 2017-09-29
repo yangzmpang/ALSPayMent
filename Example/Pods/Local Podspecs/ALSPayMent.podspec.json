@@ -1,6 +1,6 @@
 {
   "name": "ALSPayMent",
-  "version": "0.1.7",
+  "version": "0.1.9",
   "summary": "A short description of ALSPayMent.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/yangzmpang/ALSPayMent",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/yangzmpang/ALSPayMent.git",
-    "tag": "0.1.7"
+    "tag": "0.1.9"
   },
   "platforms": {
     "ios": "8.0"
@@ -51,7 +51,12 @@
         "UIKit"
       ],
       "ios": {
-        "libraries": "stdc++"
+        "libraries": [
+          "z",
+          "sqlite3.0",
+          "c++",
+          "stdc++"
+        ]
       },
       "xcconfig": {
         "OTHER_LDFLAGS": "-ObjC",
