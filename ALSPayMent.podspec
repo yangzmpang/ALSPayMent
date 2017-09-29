@@ -36,12 +36,10 @@ TODO: Add long description of the pod here.
   core.source_files = 'ALSPayMent/Classes/**/*'
   core.public_header_files = 'ALSPayMent/Classes/**/*.h'
  
-  core.resources = "ALSPayMent/lib/*.bundle","ALSPayMent/lib/ALSAppleIncRootCertificate.cer"
   core.frameworks = "CoreMotion","CoreGraphics", "CoreTelephony","QuartzCore","SystemConfiguration","Security","Foundation","UIKit"
   core.ios.library = 'z', 'sqlite3.0','c++', 'stdc++'
   core.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC',
-  'ENABLE_BITCODE' => 'NO',
-  'HEADER_SEARCH_PATHS' => '/Users/yangziminyangzimin/Desktop/test/ALSPayMent/ALSPayMent/ALSPayMent/Classes/openssl/include/**' }
+  'ENABLE_BITCODE' => 'NO' }
   core.vendored_libraries = "ALSPayMent/lib/*.a"
   end
 

@@ -36,10 +36,6 @@
       "name": "Core",
       "source_files": "ALSPayMent/Classes/**/*",
       "public_header_files": "ALSPayMent/Classes/**/*.h",
-      "resources": [
-        "ALSPayMent/lib/*.bundle",
-        "ALSPayMent/lib/ALSAppleIncRootCertificate.cer"
-      ],
       "frameworks": [
         "CoreMotion",
         "CoreGraphics",
@@ -60,8 +56,7 @@
       },
       "xcconfig": {
         "OTHER_LDFLAGS": "-ObjC",
-        "ENABLE_BITCODE": "NO",
-        "HEADER_SEARCH_PATHS": "/Users/yangziminyangzimin/Desktop/test/ALSPayMent/ALSPayMent/ALSPayMent/Classes/openssl/include/**"
+        "ENABLE_BITCODE": "NO"
       },
       "vendored_libraries": "ALSPayMent/lib/*.a"
     }
