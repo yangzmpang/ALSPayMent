@@ -125,6 +125,28 @@
     return NO;
 }
 
+// 这里如果设置了则可以使用
+- (BOOL)registerPay:(NSDictionary*)param
+{
+    NSString* strWeixin = [param objectForKey:WEI_XIN];
+    if ( strWeixin ){
+        [self.appSchemeDict setValue:strWeixin forKey:WEI_XIN];
+        // 注册微信
+        BOOL isok = [WXApi registerApp:strWeixin];
+        if ( !isok ){
+            return NO;
+        }
+    }
+    
+    NSString* strAlspay = [param objectForKey:ALI_PAY_NAME];
+    if ( strAlspay ){
+        // 保存支付宝scheme，以便发起支付使用
+        [self.appSchemeDict setValue:strAlspay forKey:ALI_PAY_NAME];
+    }
+    
+    return YES;
+}
+
 /**
  *  @author yangzm
  *  info 对微信进行注册 URLType读取 alipay 设置数据

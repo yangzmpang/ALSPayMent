@@ -7,12 +7,16 @@
 //
 
 #import "ALSAppDelegate.h"
+#import "ALSPayManager.h"
 
 @implementation ALSAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    NSDictionary* dic = @{ WEI_XIN: @"wxb4ba3c02aa8888",  ALI_PAY_NAME: @"testpayment"};
+    [ALS_PAY registerPay:dic];
+    
     return YES;
 }
 

@@ -75,6 +75,14 @@ typedef void(^FLCompleteCallBack)(FLErrCode errCode,NSString *errStr);
  */
 - (void)registerPay;
 
+
+/**
+ 注册微信和支付宝
+
+ @param param  key:@"weixin" value:@“65654“  key:@“alipay” value:@"som..." 以后可以扩展
+ */
+- (BOOL)registerPay:(NSDictionary*)param;
+
 /**
  *  @author yangzm
  *
