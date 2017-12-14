@@ -2,7 +2,7 @@ use_frameworks!
 
 target 'ALSPayMent_Example' do
   pod 'ALSPayMent', :path => '../'
-
+  pod 'UMengUShare/Social/WeChat', '6.4.1'
   target 'ALSPayMent_Tests' do
     inherit! :search_paths
 

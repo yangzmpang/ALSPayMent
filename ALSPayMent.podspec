@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ALSPayMent'
-  s.version          = '0.1.14'
+  s.version          = '0.1.15'
   s.summary          = 'A short description of ALSPayMent.'
 
 # This description is used to generate tags and improve search results.
@@ -40,10 +40,11 @@ TODO: Add long description of the pod here.
   core.ios.library = 'z', 'sqlite3.0','c++', 'stdc++'
   core.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC',
   'ENABLE_BITCODE' => 'NO' }
-  core.vendored_libraries = "ALSPayMent/lib/*.a"
+  #core.vendored_libraries = "ALSPayMent/lib/*.a"
   end
 
   s.dependency 'ALSAlipay'
+  s.dependency 'UMengUShare/Social/WeChat','=6.4.1'
   s.dependency 'PodAsset'
   s.pod_target_xcconfig = {
     'FRAMEWORK_SEARCH_PATHS' => '$(inherited) $(PODS_ROOT)/**',

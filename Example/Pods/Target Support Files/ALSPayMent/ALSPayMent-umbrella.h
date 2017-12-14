@@ -11,9 +11,6 @@
 #endif
 
 #import "ALSPayManager.h"
-#import "WechatAuthSDK.h"
-#import "WXApi.h"
-#import "WXApiObject.h"
 
 FOUNDATION_EXPORT double ALSPayMentVersionNumber;
 FOUNDATION_EXPORT const unsigned char ALSPayMentVersionString[];

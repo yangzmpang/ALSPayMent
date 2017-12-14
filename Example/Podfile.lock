@@ -1,16 +1,27 @@
 PODS:
   - ALSAlipay (0.0.2)
-  - ALSPayMent (0.1.9):
+  - ALSPayMent (0.1.15):
     - ALSAlipay
-    - ALSPayMent/Core (= 0.1.9)
+    - ALSPayMent/Core (= 0.1.15)
     - PodAsset
-  - ALSPayMent/Core (0.1.9):
+    - UMengUShare/Social/WeChat (= 6.4.1)
+  - ALSPayMent/Core (0.1.15):
     - ALSAlipay
     - PodAsset
+    - UMengUShare/Social/WeChat (= 6.4.1)
   - PodAsset (0.22.0)
+  - UMengUShare/Core (6.4.1):
+    - UMengUShare/Network
+  - UMengUShare/Network (6.4.1)
+  - UMengUShare/Social/ReducedWeChat (6.4.1):
+    - UMengUShare/Core
+  - UMengUShare/Social/WeChat (6.4.1):
+    - UMengUShare/Core
+    - UMengUShare/Social/ReducedWeChat
 
 DEPENDENCIES:
   - ALSPayMent (from `../`)
+  - UMengUShare/Social/WeChat (= 6.4.1)
 
 EXTERNAL SOURCES:
   ALSPayMent:
@@ -18,9 +29,10 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   ALSAlipay: 7d7622bac953d588497e9aea1f2660f567510a49
-  ALSPayMent: 54e1ae753e021dcd8b5d8c49c00b237194404132
+  ALSPayMent: 38c2086363356b5e8e0ffae88733b4cf4ef023ab
   PodAsset: d9d35b6a86ceaeaead63692a1bce27b4aea243b3
+  UMengUShare: 7756e2e46ceba04e3000fb2c9b1d3f61784ca2ff
 
-PODFILE CHECKSUM: 0990a53f579c1c15ef2f21d738d3c5206a201d4a
+PODFILE CHECKSUM: 6c9c17b527c6c742bfc5426abad57c5c7d1c4bc5
 
 COCOAPODS: 1.2.1
