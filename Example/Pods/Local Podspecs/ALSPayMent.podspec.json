@@ -1,6 +1,6 @@
 {
   "name": "ALSPayMent",
-  "version": "0.1.15",
+  "version": "0.1.16",
   "summary": "A short description of ALSPayMent.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/yangzmpang/ALSPayMent",
@@ -13,19 +13,13 @@
   },
   "source": {
     "git": "https://github.com/yangzmpang/ALSPayMent.git",
-    "tag": "0.1.15"
+    "tag": "0.1.16"
   },
   "platforms": {
     "ios": "8.0"
   },
   "default_subspecs": "Core",
   "dependencies": {
-    "ALSAlipay": [
-
-    ],
-    "UMengUShare/Social/WeChat": [
-      "=6.4.1"
-    ],
     "PodAsset": [
 
     ]

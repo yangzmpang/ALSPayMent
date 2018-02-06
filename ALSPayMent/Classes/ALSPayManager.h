@@ -1,8 +1,18 @@
 
 #import <Foundation/Foundation.h>
 
+//#import "WXApi.h"
+//#import <AlipaySDK/AlipaySDK.h>
+
+#if __has_include("WXApi.h")
+#define ALS_IAP_WX
 #import "WXApi.h"
+#endif
+
+#if __has_include(<AlipaySDK/AlipaySDK.h>)
+#define ALS_IAP_PAY
 #import <AlipaySDK/AlipaySDK.h>
+#endif
 
 /**
  *  @author yangzm

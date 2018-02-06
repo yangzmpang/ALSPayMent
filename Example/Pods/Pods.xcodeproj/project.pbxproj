@@ -10,7 +10,7 @@
 		0905C46227C865CCC870BAB061276D02 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 171AA88A090799BDA530400040711BB7 /* SystemConfiguration.framework */; };
 		0F3AA1BA5CD7B528DD530256FCB4DAFF /* ALSPayManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 75A7384896911BE232AC465B8BD127A8 /* ALSPayManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		11664F21411CA1D5D9F3538E0BBDA1D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A0AFB932537167935E074BD71B3EB65 /* Foundation.framework */; };
-		1EEEA7A1CD2C5B8F515B3B29F5342907 /* PodAsset-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9473089110C7177ECEB5BA49607D493 /* PodAsset-dummy.m */; };
+		1EEEA7A1CD2C5B8F515B3B29F5342907 /* PodAsset-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A914A10A36A237BBEB8D7F87295BDD /* PodAsset-dummy.m */; };
 		2D16CA7496B19E5A13EA007D8494A82C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAF5ED87D966B450DC56C5CB8F298045 /* QuartzCore.framework */; };
 		2DD4507AD06F545F0EB18FC801ADB0D4 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9493568C444228DD86FFE15B6A054D /* CoreTelephony.framework */; };
 		3CB04F70ECB1B01FB3C01E8091D0FEE2 /* Pods-ALSPayMent_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0967FC3CB8A0FD0AAF775B6137A86405 /* Pods-ALSPayMent_Example-dummy.m */; };
@@ -18,7 +18,7 @@
 		55F0AD094758BDD2A1E645E2F8D4B121 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D57ED576E217B44590C39A67C2057F3D /* CoreMotion.framework */; };
 		5DB0F87757EB7334CB151FCFD9DB846A /* ALSPayMent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B3C49272EEA2EDA249D9AD8DE378E7 /* ALSPayMent-dummy.m */; };
 		67FBFA8925043161689741D3B062E876 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A0AFB932537167935E074BD71B3EB65 /* Foundation.framework */; };
-		6B8600745B3B75B46EE04A08E97FA773 /* PodAsset-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D8CE11E10260CD7245DA75C35E3B64E2 /* PodAsset-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B8600745B3B75B46EE04A08E97FA773 /* PodAsset-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69E1BC5B7D14CEAC59E3FEEFE1EBB6EB /* PodAsset-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		75BC9D026A72BECDE62980306C7D22A3 /* Pods-ALSPayMent_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 123464415E186E2A6E7BCFA09AD46385 /* Pods-ALSPayMent_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7B7D4B0A2974C218E20C9FFE2054A28B /* PodAsset.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A99594D91EA88FD4153F53145A20CD5 /* PodAsset.framework */; };
 		8358DE472CD87D2D7E81045A3AD30254 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A0AFB932537167935E074BD71B3EB65 /* Foundation.framework */; };
@@ -27,9 +27,9 @@
 		A5DC67A5CE81D515D3AE5B4AFA3BE07D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0A439EF62C154692D2CE3E8BFDCEAF2 /* UIKit.framework */; };
 		C9A22B9111CA878134445CB7577DCFCF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A0AFB932537167935E074BD71B3EB65 /* Foundation.framework */; };
 		D1365B2CE55FCDD19A1D9CDA4213220D /* Pods-ALSPayMent_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B537A0092F604DBF19844F6056868B6F /* Pods-ALSPayMent_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D49FFD8A7569D7FB706DC29B539FE5B5 /* PodAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D1E5F0FD127A79FB45EC55329143E64 /* PodAsset.m */; };
+		D49FFD8A7569D7FB706DC29B539FE5B5 /* PodAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 1977F494870890F66A86D7AEBB41ED3A /* PodAsset.m */; };
 		E8EDCA380EED6D66C2974DFDD818753F /* ALSPayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 279C625570F0BA51B47298F53D5951BC /* ALSPayManager.m */; };
-		EE5ACF13E14CD162526D50173FFE7416 /* PodAsset.h in Headers */ = {isa = PBXBuildFile; fileRef = 48FFDAA8570B0AF310C144BBDAFEE26F /* PodAsset.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE5ACF13E14CD162526D50173FFE7416 /* PodAsset.h in Headers */ = {isa = PBXBuildFile; fileRef = 04FD93A94E4CB0872374A33B16556576 /* PodAsset.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F5039E8AFABF2EBF74117D6BB595DD05 /* ALSPayMent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA0A4D5963EA06D6AB119F50E912BEDC /* ALSPayMent-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -58,72 +58,55 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04FD93A94E4CB0872374A33B16556576 /* PodAsset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PodAsset.h; path = Pod/Classes/PodAsset.h; sourceTree = "<group>"; };
+		08A914A10A36A237BBEB8D7F87295BDD /* PodAsset-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PodAsset-dummy.m"; sourceTree = "<group>"; };
 		0967FC3CB8A0FD0AAF775B6137A86405 /* Pods-ALSPayMent_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ALSPayMent_Example-dummy.m"; sourceTree = "<group>"; };
 		0E8597E56AD3F0A2DCCC760270A7B788 /* Pods-ALSPayMent_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ALSPayMent_Tests.modulemap"; sourceTree = "<group>"; };
 		123464415E186E2A6E7BCFA09AD46385 /* Pods-ALSPayMent_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ALSPayMent_Tests-umbrella.h"; sourceTree = "<group>"; };
-		124218F29657A575651A39D46339991D /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = UShareSDK/SocialLibraries/WeChat/WechatSDK/WXApiObject.h; sourceTree = "<group>"; };
 		13A274DE27F5AAD0C433F2AFD9D569B4 /* ALSPayMent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ALSPayMent.framework; path = ALSPayMent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		15926B5C26C0709C72604F9F27D3EC73 /* Pods_ALSPayMent_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ALSPayMent_Example.framework; path = "Pods-ALSPayMent_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		171AA88A090799BDA530400040711BB7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		1D1E5F0FD127A79FB45EC55329143E64 /* PodAsset.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PodAsset.m; path = Pod/Classes/PodAsset.m; sourceTree = "<group>"; };
+		1977F494870890F66A86D7AEBB41ED3A /* PodAsset.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PodAsset.m; path = Pod/Classes/PodAsset.m; sourceTree = "<group>"; };
 		22A015106057612EB4C2B9212DE52EEA /* Pods-ALSPayMent_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ALSPayMent_Example-frameworks.sh"; sourceTree = "<group>"; };
 		279C625570F0BA51B47298F53D5951BC /* ALSPayManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ALSPayManager.m; sourceTree = "<group>"; };
-		2A3669148123234B022F19B7EA907E2C /* UTDID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UTDID.framework; path = ALSAlipay/Frameworks/UTDID.framework; sourceTree = "<group>"; };
-		2C6284AC02E9BC230795C76551CCC149 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = UShareSDK/SocialLibraries/WeChat/WechatSDK/libWeChatSDK.a; sourceTree = "<group>"; };
-		32C96DCADC202B295055FE0FD6F89D4F /* UMSocialCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMSocialCore.framework; path = UShareSDK/UMSocialSDK/UMSocialCore.framework; sourceTree = "<group>"; };
-		33709DBD4D4195B7089C99A666794474 /* PodAsset.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PodAsset.xcconfig; sourceTree = "<group>"; };
 		3A0AFB932537167935E074BD71B3EB65 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		48FFDAA8570B0AF310C144BBDAFEE26F /* PodAsset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PodAsset.h; path = Pod/Classes/PodAsset.h; sourceTree = "<group>"; };
 		4DB141A0908629E4CEC87C81C06D9DC2 /* Pods-ALSPayMent_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ALSPayMent_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		502014B04E01E2782C52F96361870054 /* UTDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UTDevice.h; path = ALSAlipay/Frameworks/UTDID.framework/Versions/A/Headers/UTDevice.h; sourceTree = "<group>"; };
-		57492E34C65D14C79BFCD7CA65142206 /* UMSocialNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMSocialNetwork.framework; path = UShareSDK/UMSocialSDK/UMSocialNetwork.framework; sourceTree = "<group>"; };
 		5A497F3B63F174C77ED78FFADE618657 /* ALSPayMent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALSPayMent-prefix.pch"; sourceTree = "<group>"; };
 		5C4886F8103EEDF75ADE87D3B9B78240 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		5E0FD0BCE497AB937730D7D100F428A0 /* Pods-ALSPayMent_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ALSPayMent_Tests-dummy.m"; sourceTree = "<group>"; };
-		61692078173D7E7BFD070AA698679665 /* PodAsset.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PodAsset.modulemap; sourceTree = "<group>"; };
 		6935CA685887A3C935F61218CC90F8A3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69E1BC5B7D14CEAC59E3FEEFE1EBB6EB /* PodAsset-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PodAsset-umbrella.h"; sourceTree = "<group>"; };
 		6A3C5833BC7A62E85EF46EC52400CE24 /* ALSPayMent.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ALSPayMent.modulemap; sourceTree = "<group>"; };
 		6A99594D91EA88FD4153F53145A20CD5 /* PodAsset.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PodAsset.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7234B39AC862D6E5F0B7F2DB430236A5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75A7384896911BE232AC465B8BD127A8 /* ALSPayManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ALSPayManager.h; sourceTree = "<group>"; };
-		7797CDE6A806082281FEFB5456AD44C5 /* AidProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AidProtocol.h; path = ALSAlipay/Frameworks/UTDID.framework/Versions/A/Headers/AidProtocol.h; sourceTree = "<group>"; };
 		7B5202A9C730D952B34B89DE18DBB281 /* ALSPayMent.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ALSPayMent.xcconfig; sourceTree = "<group>"; };
 		7E47C458C968FF2F484BDFD38A1DB4A5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		7F173E529B51092D88BBFB9280085B07 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlipaySDK.framework; path = ALSAlipay/Frameworks/AlipaySDK.framework; sourceTree = "<group>"; };
 		7FCCDCA4FBAD3B74427E19C5DEDB2C93 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		862EE7EF2ECB3BF7DF5188FA57E84168 /* AlipaySDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AlipaySDK.bundle; path = ALSAlipay/Assets/AlipaySDK.bundle; sourceTree = "<group>"; };
 		897DC446258C67FF30D37B05739752D1 /* PodAsset.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PodAsset.framework; path = PodAsset.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DDA288D6250FAD5A3FD399A5FEDC5D5 /* Pods-ALSPayMent_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ALSPayMent_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		928725DEAB58ED9C9A991C18F35443D4 /* UMSocialSDKPromptResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = UMSocialSDKPromptResources.bundle; path = UShareSDK/UMSocialSDK/UMSocialSDKPromptResources.bundle; sourceTree = "<group>"; };
+		8F709C1CF4795B2353DC507FEF0BFB53 /* PodAsset-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PodAsset-prefix.pch"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94E77C85D3ABBA81D8D5CB2C8965D83E /* PodAsset.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PodAsset.xcconfig; sourceTree = "<group>"; };
 		952424CBEE76D186FDE136D68DF97485 /* Pods-ALSPayMent_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ALSPayMent_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		95E46F32BDAF6CEE84B65F646CA93F61 /* Pods-ALSPayMent_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ALSPayMent_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9D47731DA5C7619AA7166FD655648C94 /* Pods-ALSPayMent_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ALSPayMent_Example-resources.sh"; sourceTree = "<group>"; };
-		AB372F89F1C5E7E64F6F78757066A1FC /* UMSocialWechatHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialWechatHandler.h; path = UShareSDK/SocialLibraries/WeChat/UMSocialWechatHandler.h; sourceTree = "<group>"; };
 		B0A439EF62C154692D2CE3E8BFDCEAF2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		B537A0092F604DBF19844F6056868B6F /* Pods-ALSPayMent_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ALSPayMent_Example-umbrella.h"; sourceTree = "<group>"; };
-		B71329AB8B08583B3A55CC6039119D19 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = UShareSDK/SocialLibraries/WeChat/WechatSDK/WechatAuthSDK.h; sourceTree = "<group>"; };
 		BA9493568C444228DD86FFE15B6A054D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
-		C26A69216D908101ED7501867D82D0CB /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = UShareSDK/SocialLibraries/WeChat/WechatSDK/WXApi.h; sourceTree = "<group>"; };
 		C393AC921143949D2FFF1EBF7AD3A0B2 /* Pods-ALSPayMent_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ALSPayMent_Example.modulemap"; sourceTree = "<group>"; };
 		C3D2ADA84C203A8A1B12436796A50DD2 /* Pods_ALSPayMent_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ALSPayMent_Tests.framework; path = "Pods-ALSPayMent_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5F5F0C6A3639D48B19398CA49244313 /* libSocialWeChat.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialWeChat.a; path = UShareSDK/SocialLibraries/WeChat/libSocialWeChat.a; sourceTree = "<group>"; };
-		C9473089110C7177ECEB5BA49607D493 /* PodAsset-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PodAsset-dummy.m"; sourceTree = "<group>"; };
 		D0113C30E8386F79068A9E6754AA12F3 /* Pods-ALSPayMent_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ALSPayMent_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		D444F3695D1A88D092D21AA1EE157D1F /* APayAuthInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APayAuthInfo.h; path = ALSAlipay/Frameworks/AlipaySDK.framework/Headers/APayAuthInfo.h; sourceTree = "<group>"; };
-		D471A1B6D22DCCF9224BFFCC3BB1E801 /* libUMSocialLog.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libUMSocialLog.a; path = UShareSDK/UMSocialSDKPlugin/libUMSocialLog.a; sourceTree = "<group>"; };
 		D4D64E9C6A544477707448736A60B1AF /* Pods-ALSPayMent_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ALSPayMent_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D57ED576E217B44590C39A67C2057F3D /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
-		D8CE11E10260CD7245DA75C35E3B64E2 /* PodAsset-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PodAsset-umbrella.h"; sourceTree = "<group>"; };
-		D91E04AE2D6EAC39F2E9D6C2BB348D3E /* PodAsset-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PodAsset-prefix.pch"; sourceTree = "<group>"; };
+		D5A9CF11DC6120C500538C59C416936C /* PodAsset.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PodAsset.modulemap; sourceTree = "<group>"; };
 		DA0A4D5963EA06D6AB119F50E912BEDC /* ALSPayMent-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALSPayMent-umbrella.h"; sourceTree = "<group>"; };
 		DAE1B5CF1EAB16F25FE1D8023816FE37 /* Pods-ALSPayMent_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ALSPayMent_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DAF5ED87D966B450DC56C5CB8F298045 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		E6338BEDA285678B64DF08EE38CB8CB6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECBCB19FB6394D36BF3A5CC40F01FB96 /* Pods-ALSPayMent_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ALSPayMent_Tests-resources.sh"; sourceTree = "<group>"; };
 		EEF22D710607C14DA5712CF7B814D270 /* Pods-ALSPayMent_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ALSPayMent_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F5B3C49272EEA2EDA249D9AD8DE378E7 /* ALSPayMent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ALSPayMent-dummy.m"; sourceTree = "<group>"; };
-		FBCE87E2B11E7C04ABAB814DCD01ED2C /* AlipaySDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AlipaySDK.h; path = ALSAlipay/Frameworks/AlipaySDK.framework/Headers/AlipaySDK.h; sourceTree = "<group>"; };
+		F95A48E9B39B13AA7A5905BDFEBED5E9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFB4F4F0908D6B6D7895C94480E35112 /* Pods-ALSPayMent_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ALSPayMent_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -171,6 +154,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06B8058FD508B6A015D547AFD0658715 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E59B2F9E45862C6514A5FA87CB23B375 /* PodAsset */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		1480511356C471AE96E4FC6D6D535830 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,57 +171,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		165DFC8489ED75A62225058D2000E1E8 /* Network */ = {
+		487DCBEC73D8020E3B09F1AAB3520EE4 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				435ED3308072F72264DA1B8DD983B748 /* Frameworks */,
+				F95A48E9B39B13AA7A5905BDFEBED5E9 /* Info.plist */,
+				D5A9CF11DC6120C500538C59C416936C /* PodAsset.modulemap */,
+				94E77C85D3ABBA81D8D5CB2C8965D83E /* PodAsset.xcconfig */,
+				08A914A10A36A237BBEB8D7F87295BDD /* PodAsset-dummy.m */,
+				8F709C1CF4795B2353DC507FEF0BFB53 /* PodAsset-prefix.pch */,
+				69E1BC5B7D14CEAC59E3FEEFE1EBB6EB /* PodAsset-umbrella.h */,
 			);
-			name = Network;
-			sourceTree = "<group>";
-		};
-		1ACA63D387642ADBB0DDF999E21B774D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7F173E529B51092D88BBFB9280085B07 /* AlipaySDK.framework */,
-				2A3669148123234B022F19B7EA907E2C /* UTDID.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		2CCD2C0B75E354C1B66E396906271A89 /* Social */ = {
-			isa = PBXGroup;
-			children = (
-				87CBEAC1AA128D9B0701B9963BB12C65 /* ReducedWeChat */,
-				402FCE27BA2FBF2CBCE8E7E871D6E8DA /* WeChat */,
-			);
-			name = Social;
-			sourceTree = "<group>";
-		};
-		402FCE27BA2FBF2CBCE8E7E871D6E8DA /* WeChat */ = {
-			isa = PBXGroup;
-			children = (
-				B71329AB8B08583B3A55CC6039119D19 /* WechatAuthSDK.h */,
-				C26A69216D908101ED7501867D82D0CB /* WXApi.h */,
-				124218F29657A575651A39D46339991D /* WXApiObject.h */,
-				6EF7F60DF5F99BD83A733B777CA0F0DC /* Frameworks */,
-			);
-			name = WeChat;
-			sourceTree = "<group>";
-		};
-		435ED3308072F72264DA1B8DD983B748 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				57492E34C65D14C79BFCD7CA65142206 /* UMSocialNetwork.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		6EF7F60DF5F99BD83A733B777CA0F0DC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				2C6284AC02E9BC230795C76551CCC149 /* libWeChatSDK.a */,
-			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/PodAsset";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -239,7 +191,7 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				94810F78E7CEC3401D4ECE7F3549633A /* Development Pods */,
 				1480511356C471AE96E4FC6D6D535830 /* Frameworks */,
-				D7E856DD405A58600C33E02CFCE47719 /* Pods */,
+				06B8058FD508B6A015D547AFD0658715 /* Pods */,
 				8ECC787F9162E849B118070971381A75 /* Products */,
 				AF8627CBB6190BDE9C34633BBC400BC3 /* Targets Support Files */,
 			);
@@ -253,37 +205,6 @@
 			);
 			name = Classes;
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		86A3BD7754018412B2CE2FC72FCFEF9A /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				928725DEAB58ED9C9A991C18F35443D4 /* UMSocialSDKPromptResources.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		87CBEAC1AA128D9B0701B9963BB12C65 /* ReducedWeChat */ = {
-			isa = PBXGroup;
-			children = (
-				AB372F89F1C5E7E64F6F78757066A1FC /* UMSocialWechatHandler.h */,
-				FADD13B52469CBF1D0D1B6518C33322B /* Frameworks */,
-			);
-			name = ReducedWeChat;
-			sourceTree = "<group>";
-		};
-		87CD21C87D15D1C19015215620A03D12 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E6338BEDA285678B64DF08EE38CB8CB6 /* Info.plist */,
-				61692078173D7E7BFD070AA698679665 /* PodAsset.modulemap */,
-				33709DBD4D4195B7089C99A666794474 /* PodAsset.xcconfig */,
-				C9473089110C7177ECEB5BA49607D493 /* PodAsset-dummy.m */,
-				D91E04AE2D6EAC39F2E9D6C2BB348D3E /* PodAsset-prefix.pch */,
-				D8CE11E10260CD7245DA75C35E3B64E2 /* PodAsset-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/PodAsset";
 			sourceTree = "<group>";
 		};
 		8B5A1F875CC0A41C443980D0E2EC95C7 /* Pods-ALSPayMent_Example */ = {
@@ -323,20 +244,6 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		960D296029D84CC81AF7DD2275443FFD /* ALSAlipay */ = {
-			isa = PBXGroup;
-			children = (
-				7797CDE6A806082281FEFB5456AD44C5 /* AidProtocol.h */,
-				FBCE87E2B11E7C04ABAB814DCD01ED2C /* AlipaySDK.h */,
-				D444F3695D1A88D092D21AA1EE157D1F /* APayAuthInfo.h */,
-				502014B04E01E2782C52F96361870054 /* UTDevice.h */,
-				1ACA63D387642ADBB0DDF999E21B774D /* Frameworks */,
-				FF207D1F187158B514ED246EE033EB5A /* Resources */,
-			);
-			name = ALSAlipay;
-			path = ALSAlipay;
-			sourceTree = "<group>";
-		};
 		A06FEAA27C8E72156C794968E7184118 /* ALSPayMent */ = {
 			isa = PBXGroup;
 			children = (
@@ -356,31 +263,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BBF8798D6A08165649C1E5921DDDEADA /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				F1D6D1FBD18A1930CCE27FD4880A87A8 /* Frameworks */,
-				86A3BD7754018412B2CE2FC72FCFEF9A /* Resources */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
 		C6C3C98A0EECBB70D02AD1EB322AAB1A /* Core */ = {
 			isa = PBXGroup;
 			children = (
 				EA03A6E531110D9130B9D3D1216AC376 /* ALSPayMent */,
 			);
 			name = Core;
-			sourceTree = "<group>";
-		};
-		D7E856DD405A58600C33E02CFCE47719 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				960D296029D84CC81AF7DD2275443FFD /* ALSAlipay */,
-				DAE5044FA8E5DC540E8203206560265B /* PodAsset */,
-				F6AB3774E139EDC89BE4F968F93C440A /* UMengUShare */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		D801B4671A5725A9B6CDC8BF2EC9DC32 /* Pods-ALSPayMent_Tests */ = {
@@ -415,12 +303,12 @@
 			path = "Example/Pods/Target Support Files/ALSPayMent";
 			sourceTree = "<group>";
 		};
-		DAE5044FA8E5DC540E8203206560265B /* PodAsset */ = {
+		E59B2F9E45862C6514A5FA87CB23B375 /* PodAsset */ = {
 			isa = PBXGroup;
 			children = (
-				48FFDAA8570B0AF310C144BBDAFEE26F /* PodAsset.h */,
-				1D1E5F0FD127A79FB45EC55329143E64 /* PodAsset.m */,
-				87CD21C87D15D1C19015215620A03D12 /* Support Files */,
+				04FD93A94E4CB0872374A33B16556576 /* PodAsset.h */,
+				1977F494870890F66A86D7AEBB41ED3A /* PodAsset.m */,
+				487DCBEC73D8020E3B09F1AAB3520EE4 /* Support Files */,
 			);
 			name = PodAsset;
 			path = PodAsset;
@@ -448,42 +336,6 @@
 				B0A439EF62C154692D2CE3E8BFDCEAF2 /* UIKit.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		F1D6D1FBD18A1930CCE27FD4880A87A8 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D471A1B6D22DCCF9224BFFCC3BB1E801 /* libUMSocialLog.a */,
-				32C96DCADC202B295055FE0FD6F89D4F /* UMSocialCore.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F6AB3774E139EDC89BE4F968F93C440A /* UMengUShare */ = {
-			isa = PBXGroup;
-			children = (
-				BBF8798D6A08165649C1E5921DDDEADA /* Core */,
-				165DFC8489ED75A62225058D2000E1E8 /* Network */,
-				2CCD2C0B75E354C1B66E396906271A89 /* Social */,
-			);
-			name = UMengUShare;
-			path = UMengUShare;
-			sourceTree = "<group>";
-		};
-		FADD13B52469CBF1D0D1B6518C33322B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C5F5F0C6A3639D48B19398CA49244313 /* libSocialWeChat.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		FF207D1F187158B514ED246EE033EB5A /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				862EE7EF2ECB3BF7DF5188FA57E84168 /* AlipaySDK.bundle */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -955,7 +807,7 @@
 		};
 		C4398E46810F534F4BDE7BCC117C9C5D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 33709DBD4D4195B7089C99A666794474 /* PodAsset.xcconfig */;
+			baseConfigurationReference = 94E77C85D3ABBA81D8D5CB2C8965D83E /* PodAsset.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1019,7 +871,7 @@
 		};
 		F61B706059915CA084C948C546C889AC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 33709DBD4D4195B7089C99A666794474 /* PodAsset.xcconfig */;
+			baseConfigurationReference = 94E77C85D3ABBA81D8D5CB2C8965D83E /* PodAsset.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
